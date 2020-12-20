@@ -18,3 +18,13 @@ The complete list of current project is:
 - [ansible-hiera-data](https://github.com/codeaffen/ansible-hiera-data)
 - [phpipam-ansible-modules](https://github.com/codeaffen/phpipam-ansible-modules)
 - [phpypam](https://github.com/codeaffen/phpypam)
+
+## What else
+
+With this homepage we want to create a starting point to provide information about our projects, new versions and bugs.
+
+On the other hand we want to use this blog to spot interesting topics we already encoutered in our daily work.
+
+### Contributing
+
+As you want to contribute a topic feel free to fork this project and create a PR. If we think your topic can be interesting for the audience we will merge an publish it.
