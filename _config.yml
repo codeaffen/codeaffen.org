@@ -15,10 +15,9 @@ author: Christian Meißner <cme@codeaffen.org>
 
 navbar-links:
   About: "about"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Projects:
+    - phpypam: "https://pypi.org/project/phpypam"
+    - phpipam-ansible-modules: "https://galaxy.ansible.com/codeaffen/phpipam"
 
 # --- Logo --- #
 
