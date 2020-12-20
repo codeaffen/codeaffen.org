@@ -17,7 +17,7 @@ navbar-links:
   About: "about"
   Projects:
     - phpypam: "https://pypi.org/project/phpypam"
-    - phpipam-ansible-modules: "https://galaxy.ansible.com/codeaffen/phpipam"
+    - PAM: "https://galaxy.ansible.com/codeaffen/phpipam"
 
 # --- Logo --- #
 
