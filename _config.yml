@@ -14,10 +14,10 @@ author: Christian Meißner <cme@codeaffen.org>
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About: "about"
   Projects:
     - phpypam: "https://pypi.org/project/phpypam"
     - PAM: "https://galaxy.ansible.com/codeaffen/phpipam"
+  About: "about"
 
 # --- Logo --- #
 
