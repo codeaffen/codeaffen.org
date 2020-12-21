@@ -78,13 +78,6 @@ First of all you create a dictionary with the connection data. This dictionary w
 
 If all went well you can use the `pi.get_token` to get the currently valid token from API.
 
-### possible exceptions
-
-If something goes wrong `phpypam` will raise the following exceptions:
-
-* *PHPyPAMInvalidCredentials* - will be raised if `username` or `password` is wrong.
-* *PHPyPAMInvalidSyntax* - will be raised if `app_id` is wrong.
-
 ## get available controllers
 
 To work with the phpIPAM api it is useful to know all available controllers. To achieve this you can eighter read the api documentation or you can use the `controllers` method.
@@ -110,12 +103,6 @@ entity = pi.get_entity(controller='sections', controller_path='foobar')
 {% endhighlight %}
 
 This call returns a dictionary for the entity with the name `foobar`.
-
-### possible exceptions
-
-If something goes wrong `phpypam` will raise the following exceptions:
-
-* *PHPyPAMEntityNotFoundException* - will be raised if the entity does not exists.
 
 ## create an entity
 
@@ -184,6 +171,12 @@ pi.delete_entity(controller='sections', controller_path=entity['id'])
 {% endhighlight %}
 
 In this example we request the entity we created/updated in the above examples. After that we call `delete_entity` with the entity id from the request before.
+
+## possible exceptions
+
+* *PHPyPAMInvalidCredentials* - will be raised if `username` or `password` is wrong.
+* *PHPyPAMInvalidSyntax* - will be raised if `app_id` is wrong.
+* *PHPyPAMEntityNotFoundException* - will be raised if the entity does not exists.
 
 ## further documentation
 
