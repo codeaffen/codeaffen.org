@@ -15,7 +15,7 @@ author: Christian Meißner <cme@codeaffen.org>
 
 navbar-links:
   Projects:
-    - phpypam: "https://pypi.org/project/phpypam"
+    - phpypam: "projects/phpypam"
     - PAM: "https://galaxy.ansible.com/codeaffen/phpipam"
   About: "about"
 
