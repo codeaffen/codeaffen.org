@@ -5,7 +5,7 @@ subtitle: What is codeaffen and what is it good for
 tags: [about, project, welcome]
 ---
 
-My name is Christian Meißner and I founded codeaffen in fall of 2020 because me and my colleguages faced some missing ansible modules.
+My name is Christian Meißner and I founded codeaffen in fall of 2020 because my colleguages and me faced some missing ansible modules.
 In a project we uses [phpIPAM](https://github.com/phpipam/phpipam){:target="_blank"} as one system component. As configuration management use ansible.
 To automate the configuration of phpIPAM we started to use the `url` module to talk to the API provided by phpIPAM. But to work with APIs this way is a mess.
 As we don't have enough time and budget to deveolop ansible modules I decided to do it in my sparetime and on weekends.
