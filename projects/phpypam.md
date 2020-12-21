@@ -9,7 +9,7 @@ As we started to develop phpipam-ansible-modules we used an existing python libr
 
 ## installation
 
-This library is hosted on [pypi.org](https://pypi.org/project/phpypam/), so you can simply use `pip` to install it.
+This library is hosted on [pypi.org](https://pypi.org/project/phpypam/){:target="_blank"}, so you can simply use `pip` to install it.
 
 ~~~bash
 pip install phpypam
@@ -182,5 +182,5 @@ In this example we request the entity we created/updated in the above examples. 
 
 To get more information you can use the following sources:
 
-* [documentation](https://phpypam.readthedocs.io/en/latest/index.html)
-* [github repository](https://github.com/codeaffen/phpypam)
+* [documentation](https://phpypam.readthedocs.io/en/latest/index.html){:target="_blank"}
+* [github repository](https://github.com/codeaffen/phpypam){:target="_blank"}
