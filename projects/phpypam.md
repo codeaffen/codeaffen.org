@@ -58,6 +58,8 @@ To connect to phpIPAM API you need some parameter to authenticate against the ph
 | password | The `password` to authenticate `username` against API. | None |
 | ssl_verify | Should certificate of endpoint verified or not. Useful if you use a self signed certificate. | True |
 
+*Example* connect to api and request current token:
+
 {% highlight python linenos %}
 connection_params = dict(
     url=server['url'],
