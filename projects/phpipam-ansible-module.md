@@ -24,20 +24,13 @@ The collection is hosted on [galaxy](https://galaxy.ansible.com/codeaffen/phpipm
 ansible-galaxy collection install codeaffen.phpipam
 ~~~
 
-Alternatively you can install it from source. You need to do the following:
+Alternatively you can install it from source.
 
 ~~~bash
-$ git clone https://github.com/codeaffen/phpipam-ansible-modules.git
-Cloning into 'phpipam-ansible-modules'...
-remote: Enumerating objects: 6, done.
-remote: Counting objects: 100% (6/6), done.
-remote: Compressing objects: 100% (6/6), done.
-remote: Total 598 (delta 1), reused 4 (delta 0), pack-reused 592
-Receiving objects: 100% (598/598), 130.14 KiB | 757.00 KiB/s, done.
-Resolving deltas: 100% (324/324), done.
-$ cd phpipam-ansible-modules
-$ make dist
-$ ansible-galaxy collection install -p build/collections codeaffen-phpipam-1.3.1.tar.gz
+git clone https://github.com/codeaffen/phpipam-ansible-modules.git
+cd phpipam-ansible-modules
+make dist
+ansible-galaxy collection install codeaffen-phpipam-<version>.tar.gz
 ~~~
 
 ## concept of names
