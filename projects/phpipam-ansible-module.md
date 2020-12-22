@@ -3,7 +3,8 @@ layout: page
 title: phpipam-ansible-modules
 subtitle: Ansible Modules to manage phpIPAM installations (aka. PAM)
 tags: [project, phpipam, api, python, ansible, modules, collection, galaxy]
-last-updated: 2020-12-21
+gh-repo: codeaffen/phpipam-ansible-module
+gh-badge: [star, watch, fork, follow]
 ---
 
 We started to use phpIPAM in a customer project to use it as IP management system for the whole automation. Reasons to choose were
