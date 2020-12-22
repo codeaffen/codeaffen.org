@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: page
 title: phpipam-ansible-modules
 subtitle: Ansible Modules to manage phpIPAM installations (aka. PAM)
 tags: [project, phpipam, api, python, ansible, modules, collection, galaxy]
+last-updated: 2020-12-21
 ---
 
 We started to use phpIPAM in a customer project to use it as IP management system for the whole automation. Reasons to choose were
@@ -43,8 +44,8 @@ $ ansible-galaxy collection install -p build/collections codeaffen-phpipam-1.3.1
 {: .box-note}
 **Note:** Relations between entities are managed via its entities ids in phpIPAM. These entities ids are not shown in UI so it's difficult to get these ids.
 
-To make the use of our modules as comfortable as possible we decided to implement an auto resolv mechanism to translate entities names to its entities ids.
-The
+To make the use of our modules as comfortable as possible we decided to implement an auto resolve mechanism to translate entities names to its entities ids.
+You will never need to use an id in our modules, you simply use its name.
 
 ## connection parameters
 
