@@ -62,11 +62,11 @@ To connect to phpIPAM API you need some parameter to authenticate against the ph
 
 {% highlight python linenos %}
 connection_params = dict(
-    url=server['url'],
-    app_id=server['app_id'],
-    username=server['username'],
-    password=server['password'],
-    ssl_verify=True
+url='https://ipam.example.com',
+  app_id='ansible',
+  username='apiuser',
+  password='apiP455wd',
+  ssl_verify=True
 )
 
 pi = phpypam.api(**connection_params)
@@ -76,11 +76,11 @@ token = pi.get_token()
 
 First of all you create a dictionary with the connection data. This dictionary will unpacked for creating a `phpypam.api` object.
 
-If all went well you can use the `pi.get_token` to get the currently valid token from API.
+If all went well you can use the `get_token` to get the currently valid token from API.
 
 ## get available controllers
 
-To work with the phpIPAM api it is useful to know all available controllers. To achieve this you can eighter read the api documentation or you can use the `controllers` method.
+To work with the phpIPAM api it is useful if you know all available controllers. To achieve this you can either read the api documentation or you can use the `controllers` method.
 
 {% highlight python %}
 controllers = pi.controllers()
@@ -133,7 +133,7 @@ In this example first we check if the section we work on already exists. If the 
 
 ## update an entity
 
-To update an entity the `update_entity` method has to be used.
+To update an entity you have to use the `update_entity` method.
 
 ~~~python
 update_entity(controller, controller_path=None, data=None, params=None)
@@ -148,16 +148,17 @@ entity = pi.get_entity(controller='sections', controller_path=my_section['name']
 pi.update_entity(controller='sections', controller_path=entity['id'], data=my_section)
 {% endhighlight %}
 
-Here we change the data we want to change in the dict from the former example of creating a section. Then we get the entity to get the id of it to work on.
+To change data you have to modify the value of the desired key to the value you want. You can see the data is changed in the dict from the former example.
+Then you get the entity to obtain its id to work on.
 
 {: .box-note}
 **Note:** All modifying operations need the id of an entity not the name.
 
-In the last step we call `update_entity` and put the entity id in parameter `controller_path` with the `data` parameter we provide the fully entity description dictionary.
+In the last step you call `update_entity` and put the entity id in parameter `controller_path` with the `data` parameter you provide the fully entity description dictionary.
 
 ## delete an entity
 
-To delete an entity the `delete_entity` method has to be used.
+To delete an entity you have to use the `delete_entity` method.
 
 ~~~python
 delete_entity(controller, controller_path, params=None)
@@ -170,17 +171,20 @@ entity = pi.get_entity(controller='sections', controller_path=my_section['name']
 pi.delete_entity(controller='sections', controller_path=entity['id'])
 {% endhighlight %}
 
-In this example we request the entity we created/updated in the above examples. After that we call `delete_entity` with the entity id from the request before.
+In this example you request the entity you had created/updated in the above examples.
+After that you call `delete_entity` with the entity id from the request before.
 
 ## possible exceptions
 
-* *PHPyPAMInvalidCredentials* - will be raised if `username` or `password` is wrong.
-* *PHPyPAMInvalidSyntax* - will be raised if `app_id` is wrong.
-* *PHPyPAMEntityNotFoundException* - will be raised if the entity does not exists.
+* ***PHPyPAMInvalidCredentials*** - will be raised if something goes wrong with the authentication
+* ***PHPyPAMEntityNotFoundException*** - will be raised if an entity does not exists
+* ***PHPyPAMInvalidSyntax*** - will be raised for requests which will be answered with status code 400 from API
+* ***PHPyPAMException*** - for any errors which we catch but no specific exception exists this exception wil be raised
 
-## further documentation
+## further resources
 
 To get more information you can use the following sources:
 
 * [documentation](https://phpypam.readthedocs.io/en/latest/index.html){:target="_blank"}
 * [github repository](https://github.com/codeaffen/phpypam){:target="_blank"}
+* [pypi repository](https://pypi.org/project/phpypam/){:target="_blank"}
