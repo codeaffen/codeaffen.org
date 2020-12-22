@@ -3,7 +3,8 @@ layout: page
 title: phpypam
 subtitle: Python client library for phpIPAM API
 tags: [project, phpipam, api, library, python]
-last-updated: 2020-12-22
+gh-repo: codeaffen/phpypam
+gh-badge: [star, watch, fork, follow]
 ---
 
 As we started to develop phpipam-ansible-modules we used an existing python library for phpIPAM API. As we needed a good error handling and we don't expect a quick fix of existing project we started to develop our own library.
