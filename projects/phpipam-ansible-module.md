@@ -1,7 +1,7 @@
 ---
 layout: post
-title: phpipam-ansible-modules (aka. PAM)
-subtitle: Ansible Modules to manage phpIPAM installations
+title: phpipam-ansible-modules
+subtitle: Ansible Modules to manage phpIPAM installations (aka. PAM)
 tags: [project, phpipam, api, python, ansible, modules, collection, galaxy]
 ---
 
@@ -196,7 +196,7 @@ PLAY [localhost] ***************************************************************
 TASK [Ensure state of subnet: create subnet] ********************************************************************************************************
 changed: [localhost]
 
-TASK [Ensure state of subnet: create subnet again, no change] *****************************************************************************************************************************************************
+TASK [Ensure state of subnet: create subnet again, no change] ***************************************************************************************
 ok: [localhost]
 
 TASK [Ensure state of subnet: delete subnet] ********************************************************************************************************
