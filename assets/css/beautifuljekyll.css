@@ -409,6 +409,10 @@ footer .footer-custom-content {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+footer .privacy-policy {
+    font-size: 0.300rem;
+}
+
 @media (min-width: 768px) {
   footer {
     padding: 3.125rem 0;
