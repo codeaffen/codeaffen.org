@@ -31,8 +31,10 @@
         {% endif %}
       {% endif%}
       {% if site.osano %}
-        &nbsp;&nbsp;&nbsp;
-        view our <a href="{{ '' | absolute_url }}/policy">privacy policy</a>
+        <p class="footer-custom-content">
+            view our
+            <a href="{{ '' | absolute_url }}/policy">privacy policy</a>
+        </p>
       {% endif %}
       </p>
       {% unless site.remove-ads %}<p class="theme-by text-muted">
