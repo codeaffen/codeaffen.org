@@ -410,7 +410,9 @@ footer .footer-custom-content {
 }
 
 footer .privacy-policy {
-    font-size: 0.300rem;
+  text-align: center;
+  margin-bottom: 0.9375rem;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -425,6 +427,10 @@ footer .privacy-policy {
   }
   footer .footer-custom-content {
     font-size: 1rem;
+  }
+
+  footer .privacy-policy {
+    font-size: 0.300rem;
   }
 }
 
