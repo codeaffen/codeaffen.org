@@ -7,6 +7,10 @@ gh-repo: codeaffen/phpypam
 gh-badge: [star, watch, fork, follow]
 ---
 
+[![PyPI version](https://badge.fury.io/py/phpypam.svg)](https://badge.fury.io/py/phpypam)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ed3511c33a254bfe942777c9ef3251e3)](https://www.codacy.com/gh/codeaffen/phpypam/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=codeaffen/phpypam&amp;utm_campaign=Badge_Grade)
+[![Documentation Status](https://readthedocs.org/projects/phpypam/badge/?version=latest)](https://phpypam.readthedocs.io/en/latest/?badge=latest)
+
 As we started to develop phpipam-ansible-modules we used an existing python library for phpIPAM API. As we needed a good error handling and we don't expect a quick fix of existing project we started to develop our own library.
 
 ## installation
