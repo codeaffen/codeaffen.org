@@ -30,6 +30,10 @@
           <a href="http://{{- site.matomo.uri -}}/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a>
         {% endif %}
       {% endif%}
+      {% if site.osano %}
+        &nbsp;&nbsp;&nbsp;
+        view our <a href="{{ '' | absolute_url }}/policy">privacy policy</a>
+      {% endif %}
       </p>
       {% unless site.remove-ads %}<p class="theme-by text-muted">
         Powered by
