@@ -41,6 +41,7 @@
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
 
+  {% include cookie_consent.html %}
   {% include gtag.html %}
   {% include gtm_head.html %}
   {% include google_analytics.html %}
@@ -68,7 +69,7 @@
       {% include ext-css.html css=css %}
     {% endfor %}
   {% endif %}
-  
+
   {% if page.css %}
     {% for css in page.css %}
       <link rel="stylesheet" href="{{ css | relative_url }}">
