@@ -24,7 +24,7 @@ You can prevent the setting of cookies by adjusting the settings on your browser
 
 ## The Cookies We Set
 
-*   Site preferences cookies
+* Site preferences cookies
 
     In order to provide you with a great experience on this site we provide the functionality to set your preferences for how this site runs when you use it. In order to remember your preferences we need to set cookies so that this information can be called whenever you interact with a page is affected by your preferences.
 
@@ -36,10 +36,12 @@ In some special cases we also use cookies provided by trusted third parties. The
 
     For more information on Google Analytics cookies, see the official Google Analytics page.
 
+* We also use social media buttons and/or plugins on this site that allow you to connect with your social network in various ways. For these to work the following social media sites including; {List the social networks whose features you have integrated with your site?:12}, will set cookies through our site which may be used to enhance your profile on their site or contribute to the data they hold for various purposes outlined in their respective privacy policies.
+
 ## More Information
 
 Hopefully that has clarified things for you and as was previously mentioned if there is something that you aren't sure whether you need or not it's usually safer to leave cookies enabled in case it does interact with one of the features you use on our site.
 
 However if you are still looking for more information then you can contact us through one of our preferred contact methods:
 
-*   Email: privacy@codeaffen.org
+* Email: privacy@codeaffen.org
