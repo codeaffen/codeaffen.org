@@ -36,7 +36,7 @@ In some special cases we also use cookies provided by trusted third parties. The
 
     For more information on Google Analytics cookies, see the official Google Analytics page.
 
-* We also use social media buttons and/or plugins on this site that allow you to connect with your social network in various ways. For these to work the following social media sites including; {List the social networks whose features you have integrated with your site?:12}, will set cookies through our site which may be used to enhance your profile on their site or contribute to the data they hold for various purposes outlined in their respective privacy policies.
+* We also use social media buttons and/or plugins on this site that allow you to connect with your social network in various ways. For these to work the following social media sites including; Facebook, LinkedIn and Twitter will set cookies through our site which may be used to enhance your profile on their site or contribute to the data they hold for various purposes outlined in their respective privacy policies.
 
 ## More Information
 
