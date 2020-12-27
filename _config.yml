@@ -146,6 +146,9 @@ gtag: "G-CPKTNDYCN2"
 #  site_id: "9"
 #  uri: "demo.wiki.pro"
 #  opt-out: true
+site_id: 1
+uri: "codeaffen.matomo.cloud"
+opt-out: true
 
 # --- Comments --- #
 
