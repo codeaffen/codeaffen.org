@@ -38,6 +38,10 @@ In some special cases we also use cookies provided by trusted third parties. The
 
 * We also use social media buttons and/or plugins on this site that allow you to connect with your social network in various ways. For these to work the following social media sites including; Facebook, LinkedIn and Twitter will set cookies through our site which may be used to enhance your profile on their site or contribute to the data they hold for various purposes outlined in their respective privacy policies.
 
+## Cookie Information
+
+<div id="cmpcookieinfo"></div><script src="https://consentmanager.mgr.consensu.org/delivery/cookieinfo.php?id=22040" type="text/javascript" async></script>
+
 ## More Information
 
 Hopefully that has clarified things for you and as was previously mentioned if there is something that you aren't sure whether you need or not it's usually safer to leave cookies enabled in case it does interact with one of the features you use on our site.
