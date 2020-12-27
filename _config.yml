@@ -129,7 +129,7 @@ footer-link-col: "#404040"
 osano: false
 
 # activate consentmanager cookie consent disclaimer
-consentmanasger: true
+consentmanager: true
 
 # --- Web Analytics Section --- #
 
