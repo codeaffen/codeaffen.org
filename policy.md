@@ -42,6 +42,9 @@ In some special cases we also use cookies provided by trusted third parties. The
 
 <div id="cmpcookieinfo"></div><script src="https://consentmanager.mgr.consensu.org/delivery/cookieinfo.php?id=22040" type="text/javascript" async></script>
 
+## Vendor Information
+
+<div id="cmpvendorlist"></div><script src="https://consentmanager.mgr.consensu.org/delivery/vendorlist.php?id=22040" type="text/javascript" async></script>
 ## More Information
 
 Hopefully that has clarified things for you and as was previously mentioned if there is something that you aren't sure whether you need or not it's usually safer to leave cookies enabled in case it does interact with one of the features you use on our site.
