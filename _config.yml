@@ -18,6 +18,7 @@ navbar-links:
     - phpypam: "projects/phpypam"
     - PAM: "projects/phpipam-ansible-module"
   About: "about"
+  Imprint: "imprint"
 
 # --- Logo --- #
 
