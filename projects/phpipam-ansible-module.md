@@ -3,13 +3,13 @@ layout: page
 title: phpipam-ansible-modules
 subtitle: Ansible Modules to manage phpIPAM installations (aka. PAM)
 tags: [project, phpipam, api, python, ansible, modules, collection, galaxy]
-gh-repo: codeaffen/phpipam-ansible-module
+gh-repo: codeaffen/phpipam-ansible-modules
 gh-badge: [star, watch, fork, follow]
 ---
 
-![Version on Galaxy](https://img.shields.io/badge/dynamic/json?style=flat&label=galaxy&prefix=v&url=https://galaxy.ansible.com/api/v2/collections/codeaffen/phpipam/&query=latest_version.version)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/0372c2bb95e845ce96fa5d4cf13ca1ca)](https://www.codacy.com/gh/codeaffen/phpipam-ansible-modules/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=codeaffen/phpipam-ansible-modules&amp;utm_campaign=Badge_Grade)
-[![Documentation Status](https://readthedocs.org/projects/phpipam-ansible-modules/badge/?version=develop)](https://phpipam-ansible-modules.readthedocs.io/en/develop/?badge=develop)
+![Version on Galaxy](https://img.shields.io/badge/dynamic/json?style=flat&label=galaxy&prefix=v&url=https://galaxy.ansible.com/api/v2/collections/codeaffen/phpipam/&query=latest_version.version){:target="_blank"}
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/0372c2bb95e845ce96fa5d4cf13ca1ca)](https://www.codacy.com/gh/codeaffen/phpipam-ansible-modules/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=codeaffen/phpipam-ansible-modules&amp;utm_campaign=Badge_Grade){:target="_blank"}
+[![Documentation Status](https://readthedocs.org/projects/phpipam-ansible-modules/badge/?version=develop)](https://phpipam-ansible-modules.readthedocs.io/en/develop/?badge=develop){:target="_blank"}
 
 We started to use phpIPAM in a customer project to use it as IP management system for the whole automation. Reasons to choose were
 
