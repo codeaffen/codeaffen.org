@@ -5,6 +5,7 @@ subtitle: ansible hieradata 0.1.0 has been released
 tags: [project, release, announcement, hieradata]
 gh-repo: codeaffen/ansible-hiera-data
 gh-badge: [star, watch, fork, follow]
+last-updated: 2021-01-05
 ---
 
 We are proud to announce the release of version 0.1.0 of our new ansible collection.
@@ -27,6 +28,11 @@ The `ansible-hiera-data` project was established to provide a puppet like organi
 - Parse entity name into hiera_vars dict.
 - The hiera_vars dict can be used to generate a dynamic hierarchy.
 - These function tages two extra parameters `hash_behavior` and `list_behavior` to configure this feature as needed.
+
+## Get it
+
+- [galaxy repository](https://galaxy.ansible.com/codeaffen/phpipam){:target="_blank"}
+- [github repository](https://github.com/codeaffen/phpipam-ansible-modules){:target="_blank"}
 
 ## Need help?
 
