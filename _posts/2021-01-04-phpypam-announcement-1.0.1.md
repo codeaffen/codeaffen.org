@@ -5,6 +5,7 @@ subtitle: phpypam 1.0.1 has been released
 tags: [project, release, announcement, phpypam]
 gh-repo: codeaffen/phpypam
 gh-badge: [star, watch, fork, follow]
+last-updated: 2021-01-05
 ---
 
 We are proud to announce the release of version 1.0.1 of phpypam.
@@ -12,6 +13,11 @@ We are proud to announce the release of version 1.0.1 of phpypam.
 ## Fixes
 
 - fix exception handling for connection errors
+
+## Get it
+
+- [pypi repository](https://pypi.org/project/phpypam/){:target="_blank"}
+- [github repository](https://github.com/codeaffen/phpypam){:target="_blank"}
 
 ## Need help?
 
