@@ -5,6 +5,7 @@ subtitle: ansible hieradata 0.1.0 has been released
 tags: [project, release, announcement, hieradata]
 gh-repo: codeaffen/ansible-hiera-data
 gh-badge: [star, watch, fork, follow]
+author: cmeissner
 last-updated: 2021-01-05
 ---
 

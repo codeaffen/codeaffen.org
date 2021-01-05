@@ -3,6 +3,7 @@ layout: post
 title: Monkey home is open
 subtitle: Codeaffen project homepage started today
 thumbnail-img: /assets/img/codeaffen_wo_bg.png
+author: cmeissner
 tags: [project, homepage, welcome]
 ---
 
