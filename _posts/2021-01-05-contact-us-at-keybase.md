@@ -8,4 +8,6 @@ author: gmzabos
 ---
 
 
-We think, that communications are very important. Besides the technical approach at [codeaffen @ github](https://github.com/codeaffen/codeaffen.org), we're currently establishing the project on other channels too. We decided to get started on (https://keybase.io), where you can reach us on our [team channel](https://keybase.io/team/codeaffen). Just request an invite and join us for learning, sharing and exchanging words, ideas and code. See you there!
+We think, that communications is very important. Besides the technical approach at [github](https://github.com/codeaffen), we're currently establishing the project on other channels too. We decided to get started on [keybase.io](https://keybase.io), where you can reach us on our [team channel](https://keybase.io/team/codeaffen). 
+
+Just request an invite and join us for learning, sharing and exchanging: words, ideas and code. See you there!
