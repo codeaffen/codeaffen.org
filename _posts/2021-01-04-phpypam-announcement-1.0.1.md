@@ -5,6 +5,7 @@ subtitle: phpypam 1.0.1 has been released
 tags: [project, release, announcement, phpypam]
 gh-repo: codeaffen/phpypam
 gh-badge: [star, watch, fork, follow]
+author: cmeissner
 last-updated: 2021-01-05
 ---
 
