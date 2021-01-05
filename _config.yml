@@ -15,8 +15,8 @@ author: Christian Meißner <cme@codeaffen.org>
 
 navbar-links:
   Projects:
-    - AHD: "projects/ansible-hiera-data"
-    - PAM: "projects/phpipam-ansible-modules"
+    - hieradata: "projects/ansible-hiera-data"
+    - phpipam: "projects/phpipam-ansible-modules"
     - phpypam: "projects/phpypam"
   About: "about"
   Imprint: "imprint"
