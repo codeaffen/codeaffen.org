@@ -7,9 +7,9 @@ author: cmeissner
 ---
 
 We started to develop our [phpipam-ansible-modules](https://github.com/codeaffen/phpipam-ansible-modules) to manage phpIPAM installation from within Ansible.
-We provide half a dozen of modules but unfortunately we currently does not support all controllers.
+We provide half a dozen of modules but unfortunately we currently do not support all controllers.
 
-We want to provide a go through how to to enable you to start with developing of new phpipam ansible modules. We choose the `vlan` controller as a simple example to illustrate which concepts you have to use to develop such a module.
+We want to provide a walkthrough how to to enable you to start with developing of new phpipam ansible modules. We choose the `vlan` controller as a simple example to illustrate which concepts you have to use to develop such a module.
 
 ## Starting with API doc
 
@@ -48,7 +48,7 @@ With all of this information we can define which parameters our module have to t
 
 If you already had developed a ansible module you know that it's starts with an instace of `AnsibleModule`.
 
-We decided to put some common code to a separate class which derives from `AnsibleModule`. This class have to be used for new modules as the base class. This base class is located in `phpipam_helper` module.
+We decided to put some common code to a separate class which derives from `AnsibleModule`. This class has to be used for new modules as the base class. This base class is located in `phpipam_helper` module.
 
 ~~~python
 from ansible_collections.codeaffen.phpipam.plugins.module_utils.phpipam_helper import PhpipamEntityAnsibleModule
