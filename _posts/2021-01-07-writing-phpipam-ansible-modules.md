@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to write new phpipam modules
-subtitle: Let's get in touch!
+subtitle: Let's start contributing
 tags: [project, phpipam, ansible, contributing]
 author: cmeissner
 ---
