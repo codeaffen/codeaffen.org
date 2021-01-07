@@ -4,6 +4,8 @@ title: How to write new phpipam modules
 subtitle: Let's start contributing
 tags: [project, phpipam, ansible, contributing]
 author: cmeissner
+gh-repo: codeaffen/phpipam-ansible-modules
+gh-badge: [star, watch, fork, follow]
 ---
 
 We started to develop our [phpipam-ansible-modules](https://github.com/codeaffen/phpipam-ansible-modules) to manage phpIPAM installation from within Ansible.
