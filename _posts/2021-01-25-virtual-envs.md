@@ -6,8 +6,8 @@ tags: [development, python, ruby, node.js]
 author: cmeissner
 ---
 
-If you develop on different project in different languages you can happen that different versions of the respective scriptin languges are used.
-To use different versions of your development language nevertheless keep your system clean is the purpose of environment managers. In the following article I'll want to talk about such environment managers I use for my daily work.
+If you develop on different projects in different languages it can happen that different versions of the respective scriptin languges are used.
+To use different versions of your development language nevertheless keep your system clean is the purpose of environment managers. In the following article I want to talk about such environment managers, which I use for my daily work.
 
 My first contact with an environemnt manager was within a python project. So I will start with python here follow by ruby and node.js.
 
@@ -32,8 +32,8 @@ Python 3.8.5
 {: .box-warning}
 **Warning**: To use `venv` is a very simple method but it is also the most limited. You are not able to install different python versions with this module.
 
-Therefor I looked around for a better solution and found [pyenv](https://github.com/pyenv/pyenv){:target="_blank"}.
-With this manager it is possible to install many different versions of python on your system an create virtual environments from there.
+Therefore I looked around for a better solution and found [pyenv](https://github.com/pyenv/pyenv){:target="_blank"}.
+With this manager it is possible to install many different versions of python on your system and create virtual environments from there.
 
 ### installing pyenv
 
@@ -75,9 +75,9 @@ If you leave the direcotry the virtualenv will be deactivated.
 
 ## Ruby
 
-With the experiences I collect while programming with python in virtual environments I also started my ruby journey also with an environment manager.
+With the experiences I collected while programming with python in virtual environments I also started my ruby journey also with an environment manager.
 
-One of my collegues recommended [rvm](http://rvm.io/){:target="_blank"} which seem to be the defacto standard for managing ruby environments.
+One of my colleagues recommended [rvm](http://rvm.io/){:target="_blank"} which seems to be the defacto standard for managing ruby environments.
 
 ### installating rvm
 
@@ -109,7 +109,7 @@ To automatically activate a version and gemset you have to place a `.ruby-versio
 
 ## node.js
 
-Finally I started a few month ago to work with node.js and I want to start with an environ manager too.
+Finally I started a few month ago to work with node.js and I wanted to start with an environment manager too.
 I found [nvm](https://github.com/nvm-sh/nvm){:target="_blank"} as the best candidate as my manager of choice.
 
 ### installing nvm
