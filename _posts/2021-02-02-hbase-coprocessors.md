@@ -33,7 +33,7 @@ This is how we tackled this problem.
 ## Check & remove the extra table attributes from `hbase shell`
 - Login to `hbase shell` as the **hbase** user
 - the example uses a `DataCollection` table in the `Test` namespace
-```
+```text
 describe 'Test:DataCollection'
 disable 'Test:DataCollection'
 alter 'Test:DataCollection', METHOD => 'table_att_unset',NAME => 'coprocessor$1'
@@ -44,23 +44,23 @@ alter 'Test:DataCollection', METHOD => 'table_att_unset',NAME => 'coprocessor$5'
 enable 'Test:DataCollection'
 ```
 - from ``hbase shell`` check the table state
-```
+```text
 get 'hbase:meta', 'Test:DataCollection', 'table:state'
 ```
 - possible table states:
-```
+```text
 \x08\x00 (Enabled)
 \x08\x01 (Disabled)
 \x08\x02 (Disabling)
 \x08\x03 (Enabling)
 ```
 - change the table state, ending up with a disabled table
-```
+```text
 put 'hbase:meta', 'Test:DataCollection', 'table:state',"\b\0"
 put 'hbase:meta', 'Test:DataCollection', 'table:state',"\b\1"
 ```
 - do a final check of the table state, it should be disabled
-```
+```text
 get 'hbase:meta', 'Test:DataCollection', 'table:state'
 ```
 
@@ -70,20 +70,20 @@ get 'hbase:meta', 'Test:DataCollection', 'table:state'
  
 ## Drop the stuck table and check HDFS, Zookeeper & HBase
 - Login to the ``hbase shell`` as the **hbase** user
-```
+```text
 drop 'Test:DataCollection'
 ```
 - check the HBase directory in HDFS if gone
-```
+```text
 hdfs dfs -ls /hbase/data/Test
 ```
 - check the HBase znode in Zookeeper if gone
-```
+```text
 hbase zkcli
 ls /hbase/table
 ```
 - run ``hbase hbck`` and check if your tables are in ``Status: OK``
-```
+```text
 hbase hbck
 ```
 
