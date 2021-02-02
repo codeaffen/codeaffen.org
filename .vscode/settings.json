@@ -1,9 +1,0 @@
-{
-    "css.styleSheets": [
-        "../assets/css/staticman.css",
-        "../assets/css/beautifuljekyll-minimal.css",
-        "../assets/css/pygment_highlights.css",
-        "../assets/css/bootstrap-social.css",
-        "../assets/css/beautifuljekyll.css"
-    ]
-  }
