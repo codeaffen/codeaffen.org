@@ -24,7 +24,7 @@ We identified two options on how to do this:
 
 Unfortunately, the new clusters didn't have the Apache Phoenix coprocessor available (as we had discontinued using Apache Phoenix after an initial PoC). With this different setup, the import on the new clusters using ``clone_snapshot`` and/or ``restore_snapshot`` was failing, also resulting in the imported table being 'stuck', eventually having a negative impact on all other HBase procedures running on the new clusters.
 
-This is the takeaway how to tackle this problem.
+This is how we did tackle this problem.
 
 ## Deactivate HBase sanity checks which are ACTIVE by default
 - Make an entry in ``hbase-site.xml`` to set ``hbase.table.sanity.checks`` to ``false``
