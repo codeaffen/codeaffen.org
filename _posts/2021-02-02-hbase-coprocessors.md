@@ -15,7 +15,7 @@ Coprocessors like [Apache Phoenix](http://phoenix.apache.org/){:target="_blank"}
 
 ## The problem with coprocessor table attributes
 
-As soon as you create a table or a view with and active coprocessor this adds extra table attributes to your HBase table. At some point you might decide that you don't want to use the coprocessor any longer, but the extra table attributes are preserved.
+As soon as you create a table or a view with an active coprocessor this adds extra table attributes to your HBase table. At some point you might decide that you don't want to use the coprocessor any longer, but the extra table attributes are preserved.
 
 ## Removing coprocessor table attributes
 
@@ -48,8 +48,7 @@ This is how we did tackle this problem.
   alter 'Test:DataCollection', METHOD => 'table_att_unset',NAME => 'coprocessor$3'
   alter 'Test:DataCollection', METHOD => 'table_att_unset',NAME => 'coprocessor$4'
   alter 'Test:DataCollection', METHOD => 'table_att_unset',NAME => 'coprocessor$5'
-  enable 'Test:DataCollection'2
-
+  enable 'Test:DataCollection'
   ```
 
 - from ``hbase shell`` check the table state
