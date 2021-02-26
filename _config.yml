@@ -18,6 +18,7 @@ navbar-links:
     - hieradata: "projects/ansible-hiera-data"
     - phpipam: "projects/phpipam-ansible-modules"
     - phpypam: "projects/phpypam"
+    - p3exporter: "projects/p3exporter"
   About: "about"
   Contact: "contact"
   Imprint: "imprint"
