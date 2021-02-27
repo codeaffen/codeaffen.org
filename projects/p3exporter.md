@@ -74,3 +74,10 @@ $ docker run -d -p 5876:5876 --name p3e codeaffen/p3exporter
 If your exporter run either as local program or as docker container you can access it with your webbrowser.
 
 ![metrics in browser](../../assets/img/p3e_metrics.png){: .mx-auto.d-block :}
+
+## further resources
+
+To get more information you can use the following sources:
+
+* [documentation](https://p3exporter.readthedocs.io/en/develop){:target="_blank"}
+* [github repository](https://github.com/codeaffen/p3exporter){:target="_blank"}
