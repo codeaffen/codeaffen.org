@@ -35,12 +35,12 @@ The installation and oparation of your own bitwarden server is done with a singl
 ```
 
 {: .box-note}
-**Note:** If you want to run the server on a windows enviroment please refert the documentation on [github](https://github.com/bitwarden/server#windows).
+**Note:** If you want to run the server on a windows enviroment please refert the documentation on [github](https://github.com/bitwarden/server#windows){:target="blank"}.
 
 The above command starts the installation process. It pulls the setup image and leads the operator through a simple interactive process to request all needed information.
 
 {: .box-note}
-**Note:** You need to request an installation id and key on [bitwarden.com/host](https://bitwarden.com/host/). Here you need to provide a valid e-mail address.
+**Note:** You need to request an installation id and key on [bitwarden.com/host](https://bitwarden.com/host/){:target="blank"}. Here you need to provide a valid e-mail address.
 
 ### running your own bitwarden server
 
@@ -50,7 +50,7 @@ After installation you can start your installation with one single command:
 # bitwarden.sh start
 ```
 
-On the first run it pulls all needed images, create directories and start all containers. If this is done you can access your vault via the URL you gave the installation assistent or via [localhost](https://localhost) if you let all answers unchanged.
+On the first run it pulls all needed images, create directories and start all containers. If this is done you can access your vault via the URL you gave the installation assistent or via [localhost](https://localhost){:target="blank"} if you let all answers unchanged.
 
 ## Unsing your bitwarden server
 
