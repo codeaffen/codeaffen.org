@@ -8,7 +8,7 @@ author: cmeissner
 
 ## Why bitwarden?
 
-There is dozens of password managers, most of them coming as SaaS. Bitwarden is available as Software as a Service too and can be used as simple as others. You simply [register](https://vault.bitwarden.com/#/register){:target="blank"} an account and can start to store and share your sensitive data from any of your devices.
+There are dozens of password managers, most of them coming as SaaS. Bitwarden is available as Software as a Service too and can be used as simple as others. You simply [register](https://vault.bitwarden.com/#/register){:target="blank"} an account and can start to store and share your sensitive data from any of your devices.
 
 ### Security by design
 
@@ -23,9 +23,9 @@ Bitwarden provides professional features like secure sharing of your secrets wit
 
 The last freature is the unique selling point for me and it made me write this article. If you want to run bitwarden you only need a system running docker and some minutes of your time to download, install and run it.
 
-### How to install bitwarden in your datacenter
+### how to install bitwarden in your datacenter
 
-The installation and oparation of your own bitwarden server is done with a single script. You only have to install `docker` and `docker-compose` if not yet done present. After that your run the following commands:
+The installation and oparation of your own bitwarden server is done with a single script. You only have to install `docker` and `docker-compose` if not yet done already. After that you run the following commands:
 
 ```text
 # curl -s -o bitwarden.sh \
@@ -42,7 +42,7 @@ The above command starts the installation process. It pulls the setup image and 
 {: .box-note}
 **Note:** You need to request an installation id and key on [bitwarden.com/host](https://bitwarden.com/host/). Here you need to provide a valid e-mail address.
 
-### Running your own bitwarden server
+### running your own bitwarden server
 
 After installation you can start your installation with one single command:
 
@@ -50,9 +50,9 @@ After installation you can start your installation with one single command:
 # bitwarden.sh start
 ```
 
-On the first run it pulls all images needed to create directories and start all containers. If this is done you can access your vault via the URL you gave the installation assistent or via [localhost](https://localhost) if you let all answers unchanged.
+On the first run it pulls all needed images, create directories and start all containers. If this is done you can access your vault via the URL you gave the installation assistent or via [localhost](https://localhost) if you let all answers unchanged.
 
-## Using your bitwarden server
+## Unsing your bitwarden server
 
 We try our test installation with the chrome extension. For that we created a fresh chrome profile, install the extension and configure it to use our server.
 
@@ -64,7 +64,7 @@ Now you can create a new account on your server and start to use is like you wou
 
 ## Drawback of self hosted bitwarden
 
-It is great that bitwarden is open source and you can run it at your onw but there is some drawbacks.
+It is great that bitwarden is open source and you can run it at your onw but there are some drawbacks too.
 
 * Premium Subscription - Running bitwarden server self hosted does not relieve you of necessity of a premium subscription to use premium features like FIDO U2F as a second factor of authentication.
 
