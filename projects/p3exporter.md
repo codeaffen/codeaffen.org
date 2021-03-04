@@ -81,3 +81,4 @@ To get more information you can use the following sources:
 
 * [documentation](https://p3exporter.readthedocs.io/en/develop){:target="_blank"}
 * [github repository](https://github.com/codeaffen/p3exporter){:target="_blank"}
+* [pypi repository](https://pypi.org/project/p3exporter/){:target="_blank"}
