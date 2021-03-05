@@ -81,3 +81,8 @@ To get more information you can use the following sources:
 
 * [documentation](https://p3exporter.readthedocs.io/en/develop){:target="_blank"}
 * [github repository](https://github.com/codeaffen/p3exporter){:target="_blank"}
+<<<<<<< HEAD
+=======
+* [pypi repository](https://pypi.org/project/p3exporter/){:target="_blank"}
+* [dockerhub repository](https://hub.docker.com/r/codeaffen/p3exporter){:target="_blank"}
+>>>>>>> 0be2ebe... add dockerhub link
