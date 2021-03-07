@@ -238,7 +238,7 @@ exclude:
 
 # Include these files in production site
 include:
-  - .well-known/stellar.toml
+  - .well-known
 
 plugins:
   - jekyll-paginate
