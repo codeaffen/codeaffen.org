@@ -1,0 +1,30 @@
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+VERSION="2.0.0"
+
+ACCOUNTS=[
+"GDIZF5MAUDQ6TLIK3PNZ2ESOJAZDNZWIB675S4SQ5RWUTZP3B3ONUPMX"
+"GDECMXZI4ED7CISQWMVSPNTDAU3VXJBIC6NU6NIB56HRRIHWHGYBEGIA"
+]
+
+[DOCUMENTATION]
+ORG_NAME="Codeaffen"
+ORG_URL="https://codeaffen.org"
+ORG_LOGO="https://codeaffen.org/assets/img/avatar-icon.png"
+ORG_PHYSICAL_ADDRESS="Pegasusstrasse 12, 16321 Bernau, Germany"
+ORG_OFFICIAL_EMAIL="webmaster@codeaffen.org"
+ORG_KEYBASE="codeaffen"
+ORG_GITHUB="codeaffen"
+ORG_DESCRIPTION="This is the place where we tell our friends and followers some more or less interesting stuff"
+
+[[PRINCIPALS]]
+name="Christian Meissner"
+email="privacy@meissner.sh"
+keybase="zehemee"
+github="cmeissner"
+
+[[CURRENCIES]]
+code="AFFEN"
+issuer="GDIZF5MAUDQ6TLIK3PNZ2ESOJAZDNZWIB675S4SQ5RWUTZP3B3ONUPMX"
+is_asset_anchored=false
+desc="AFFEN is a token provided by codeaffen.org to its members. It has no monetary value"
+image="https://codeaffen.org/assets/img/Codeaffen_only_C_wo_bg.png"
