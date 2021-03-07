@@ -236,6 +236,10 @@ exclude:
   - docs/
   - .github/
 
+# Include these files in production site
+include:
+  - .well-known/stellar.toml
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
