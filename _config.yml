@@ -236,9 +236,7 @@ exclude:
   - docs/
   - .github/
 
-# Include these files in production site
-include:
-  - .well-known
+include: [".well-known"]
 
 plugins:
   - jekyll-paginate
