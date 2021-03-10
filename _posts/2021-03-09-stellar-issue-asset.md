@@ -22,7 +22,7 @@ Best starting point is the [official Stellar documentation](https://developers.s
 
 ## Howto: Let's go
 
-- You will need an active wallet, which you use to fund *two* new accounts with. Make sure you have 5 XLM in that wallet which can be transfered out into the *two* new accounts. I used my [Lobstr wallet](https://lobstr.co/){:target="_blank"} with an afor this.
+- You will need an active wallet, which you use to fund *two* new accounts with. Make sure you have 5 XLM in that wallet which can be transfered out into the *two* new accounts. I used my [Lobstr wallet](https://lobstr.co/){:target="_blank"} for this.
 - Access [Stellar Laboratory](https://laboratory.stellar.org/){:target="_blank"}. Select "public" on the top right corner.
 - Create an ISSUER account: Click `Create Account`, then click `Generate keypair`. Note down the values for `Public Key` & `Secret Key`.
 - Create an DISTRIBUTOR account: Click again on `Generate keypair`, also note down the second set of values for `Public Key` & `Secret Key`.
