@@ -8,7 +8,7 @@ Pegasusstraße 12<br/>
 ## Contact Information
 
 Telephone: +49 3338 35 970 84<br/>
-E-Mail: [privacy@meissner.sh](mailto:privacy@meissner.sh)<br/>
+E-Mail: [privacy@codeaffen.orgh](mailto:privacy@codeaffen.org)<br/>
 Internet address: [https://codeaffen.org](https://codeaffen.org)
 
 ## Disclaimer
