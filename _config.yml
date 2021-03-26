@@ -74,8 +74,9 @@ rss-description: The 'codeaffen.org' homepage as rss feed.
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
+  facebook: false
   linkedin: true
+  xing: true
   vk: false
 
 # How to display the link to your website in the footer
