@@ -30,7 +30,7 @@ And finally it is eligible for free hosting on github pages.
 
 ## howto contribute
 
-As you want to contribute a topic feel free to fork this project and create a PR. If we think your topic can be interesting for the audience we will merge an publish it.
+As you want to contribute a topic feel free to fork this project and create a PR. If we think your topic can be interesting for the audience we will merge and publish it.
 
 ## license for articles and post
 

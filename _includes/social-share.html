@@ -34,6 +34,14 @@
     </a>
   {% endif %}
 
+  {% if site.share-links-active.xing %}
+  <a href="https://www.xing.com/spi/shares/new?url={{ page.url | absolute_url | url_encode }}"
+    class="btn btn-social-icon btn-xing" title="Share on xing">
+    <span class="fab fa-fw fa-xing" aria-hidden="true"></span>
+    <span class="sr-only">xing</span>
+  </a>
+  {% endif %}
+
   {% if site.share-links-active.vk %}
     <a href="https://vk.com/share.php?url={{ page.url | absolute_url | url_encode }}"
       class="btn btn-social-icon btn-vk" title="Share on VK">
