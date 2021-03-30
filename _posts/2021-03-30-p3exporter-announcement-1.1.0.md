@@ -1,7 +1,7 @@
 ---
 layout: post
-title: p3exporter 1.0.0
-subtitle: p3exporter 1.0.0 has been released
+title: p3exporter 1.1.0
+subtitle: p3exporter 1.1.0 has been released
 tags: [project, release, announcement, phpypam]
 gh-repo: codeaffen/p3exporter
 gh-badge: [star, watch, fork, follow]
