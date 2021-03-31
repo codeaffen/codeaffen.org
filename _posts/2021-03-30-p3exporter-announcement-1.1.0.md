@@ -11,9 +11,9 @@ author: cmeissner
 We are proud to announce the release of version 1.1.0 of p3exporter.
 
 We have continued to work on standardization for new collectors. For that purpose we introduced the `CollectorBase` class.
-We also add a first version of decorator to use Least recently used caches in collectors.
+We also add a first version of decorator to use least recently used caches in collectors.
 
-To reduce the size of the docker image we switched to vanilla `apline:3` as base image.
+To reduce the size of the docker image we switched to vanilla `alpine:3` as base image.
 
 ## New
 
