@@ -15,6 +15,7 @@ author: Christian Meißner <cme@codeaffen.org>
 
 navbar-links:
   Projects:
+    - click: "projects/click-types"
     - hieradata: "projects/ansible-hiera-data"
     - phpipam: "projects/phpipam-ansible-modules"
     - phpypam: "projects/phpypam"
