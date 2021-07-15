@@ -23,7 +23,7 @@ Oh wow that's sounds good, lets try!
 
 ## Installation
 
-To install this gorgeous framework you simply have to run a single command but I want to go a step back and show you how to install recommanded parts first to start directly in a clean way.
+To install this gorgeous framework you simply have to run a single command but I want to go a step back and show you how to install recommended parts first to start directly in a clean way.
 
 ### zsh
 
@@ -61,7 +61,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 This will download and run the installer. The install script works interactively and will ask you some simple questions.
 
 {: .box-note}
-**Info**: If your use is not configured to use `zsh` as login shell the installer ask to change your login shell. If you want to try OMZ first you can answer the question for changing your shell with `n`.
+**Info**: If your user is not configured to use `zsh` as login shell the installer ask to change your login shell. If you want to try OMZ first you can answer the question for changing your shell with `n`.
 You can later change your login shell with `chsh <path to zsh>`.
 
 {: .box-warning}
@@ -77,11 +77,11 @@ But this is not all. Next you should configure OMZ that it meets your needs.
 
 To change the look of your shell you can try some of the many themes which come with the framework.
 
-As their come a massive ammount of themes with OMZ it can be difficult to find the right theme for you by trying it all. For that purpose you can take a look on the [Theme list](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes){:target="_blank"} on the OMZ wiki.
+As there comes a massive ammount of themes with OMZ it can be difficult to find the right theme for you by trying it all. For that purpose you can take a look on the [Theme list](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes){:target="_blank"} on the OMZ wiki.
 
 The default theme after installation is `robbyrussell` and it can be changed by setting the variable `ZSH_THEME` within your `.zshrc` file.
 
-One of the most famous theme is the [agnoster](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#agnoster){:target="_blank"} which is also mentioned on the projects readme file.
+One of the most famous themes is the [agnoster](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#agnoster){:target="_blank"} which is also mentioned on the projects readme file.
 
 {: .box-note}
 **Note**: If you use a theme which facilitates powerline fonts you also need to adjust the configuration of some tools beside the `.zshrc` file.
@@ -101,7 +101,7 @@ Here you have to open the following click path: `Preferences -> Profiles -> <You
 
 ***Visual Studio Code***
 
-To let your theme render correctly in VSCodes internal terminal you need to add the following line to your `settings.json` (Preferences: Open Settings (JSON)):
+To let your theme render correctly in VSCode's internal terminal you need to add the following line to your `settings.json` (Preferences: Open Settings (JSON)):
 
 ~~~json
 "terminal.integrated.fontFamily": "Meslo LG S for Powerline"
@@ -113,7 +113,7 @@ Plugins are a great way to extend your shell with new functionality, e.g. comple
 
 OMZ comes with a bunch of plugins. You should take a look a the [list of plugins](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins){:target="_blank"} in the repository.
 
-Each plugin should have a README which describe what do you get with the plugin.
+Each plugin should have a README which describes what you get with the plugin.
 
 To use a plugin you only need to add the plugin name to the variable `plugins` in your `.zshrc` file.
 
