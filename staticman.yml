@@ -55,7 +55,7 @@ comments:
 
   # Akismet spam detection.
   akismet:
-    enabled: true
+    enabled: false
     author: "name"
     authorEmail: "email"
     authorUrl: "url"
