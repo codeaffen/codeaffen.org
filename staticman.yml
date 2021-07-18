@@ -108,7 +108,3 @@ comments:
     # i.e. https://{STATICMAN API INSTANCE}/v3/encrypt/{your-site-secret}
     # For more information, visit https://staticman.net/docs/encryption
     secret: "QPbzwg62UUgBS+AtxEqEjr72mrooOAbGHBDlQQ8OdvJbhodp9rb1VTHsDxOjw6cOp5CAbeJwNIrbvIXplzMvoDEyufloA/d6LZfx3Tnlu/+1cpCNa/jFGAb+qJWDFjZpS9dLJI0/lA9SwsgLWhR5jZ3zcmuyHOfNtIPJuI0vcYzrTwNpsLH88QK2iGh1vISZLZSK7GpPY5g9xwMAcEhxHr7cGPIXzmqwyor2pdOYmnIcpDYHBCcEPgjDMMD1aU3A4SyJ/KyxN7HcAhklcGVqMaHvE29Rj4VZfrg2slDL/M4g0aHfl/gPPqNbSWsXY61nmKFoT5b6YoO9KJOpLngzVw=="
-
-  githubAuth:
-    clientId: "QfGyLJ+Qc7nNcIPrC2lsbZvBBVhbkZ7UsV3Ckz+dLpUM2J/8zLsY+lshDsOkTTdf4q7bqCatFoarmJaCkfPGBcusEBTV5VfHMdGhgBOsZlTeUIMkUjCftazVVkRh/qmp12Rlejmk8OX1GN4rNGgBObwvTD5iT4KzKYMaq/IFKLn3r6spRscOUpRNTwGrMq+IT5ZenU8EHW7eaERYH7fX5sS7L7trSPvRioLljh1M/ZJj7w4kIMe2T2YbBig0egoHHJADu2dqFh718zn8LG4vlUN4RL/N1oT+NiisfZS8PSeSgl2Vv+mi3RPlWgp6jKtQ/SsShikCDvHpuUeUy1GBgw=="
-    clientSecret: "AiVm3BIjADqvVS7GB8RWtQe0YZ5NuFTG/bfg/4YchCp49mA6yQrKViXvQ6wKh0j+zSKdjnX4flI4sIhWiwY7+aFuXgMzlqvZpvK3tW/002j0d//hKUNsAYZIy/aOKDcUKTfY4eg0KL/yzJef6FyW7yvciEIneHhvE3AjFmHAa0Lf92qeOEm3LT7caojwZr4983kd7e3X8PG7uvXKH8d6oeniy3QfBel33V7dir+BGaFrdZHeCzK7rpQghNKeLf5p8oSK66Ta9WuHycPDgZp/3Lqq7KQ+O1zb/zE6rN73MNRXRkM+GqFPyAB+c5cS5r9bbBjoMYCgMUc52fAcDUMQjg=="
