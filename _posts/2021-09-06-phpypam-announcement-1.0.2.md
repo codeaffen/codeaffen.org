@@ -26,7 +26,6 @@ Many thanks to [Mattias Amnefelt](https://github.com/mattiasa) his first time co
 ## Get it
 
 * [pypi repository](https://pypi.org/project/phpypam/){:target="_blank"}
-* [dockerhub repository](https://hub.docker.com/r/codeaffen/phpypam){:target="_blank"}
 * [github repository](https://github.com/codeaffen/phpypam){:target="_blank"}
 
 ## Need help?
