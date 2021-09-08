@@ -13,7 +13,7 @@ We are proud to announce the release of version 1.0.2 of phpypam.
 This release contains a little change in exception handling on searches for non existing hosts.
 We also add test cases to check the exception handling in ci/cd workflow.
 
-Many thanks to [Mattias Amnefelt](https://github.com/mattiasa) his first time contribution helps us to cover more exception in a correct way.
+Many thanks to [Mattias Amnefelt](https://github.com/mattiasa) his first time contribution helps us to cover more exceptions in a correct way.
 
 ## New
 
