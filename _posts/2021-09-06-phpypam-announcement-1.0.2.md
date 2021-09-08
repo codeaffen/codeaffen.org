@@ -21,7 +21,7 @@ Many thanks to [Mattias Amnefelt](https://github.com/mattiasa) his first time co
 
 ## Fixes
 
-* fix #48 - raise PHPyPAMEntityNotFoundException if searching for non existing host
+* fix [#48](https://github.com/codeaffen/phpypam/issues/48){:target="_blank"} - raise PHPyPAMEntityNotFoundException if searching for non existing host
 
 ## Get it
 
