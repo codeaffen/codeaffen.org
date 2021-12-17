@@ -1,6 +1,6 @@
 ---
 layout: post
-title: phpipam ansible modules 1.4.0
+title: codeaffen.phpipam v1.4.0
 subtitle: phpipam ansible modules 1.4.0 has been released
 tags: [project, release, announcement, pam, phpipam, phpipam-ansible-modules]
 gh-repo: codeaffen/phpipam-ansible-modules
