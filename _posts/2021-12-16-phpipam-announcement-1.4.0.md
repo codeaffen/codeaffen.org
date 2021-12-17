@@ -28,3 +28,12 @@ This release contains two new modules and a few bug fixes.
 
 - codeaffen.phpipam.location - Manage locations
 - codeaffen.phpipam.tag - Manage tags
+
+## Get it
+
+- [galaxy repository](https://galaxy.ansible.com/codeaffen/phpipam){:target="_blank"}
+- [github repository](https://github.com/codeaffen/phpipam-ansible-modules){:target="_blank"}
+
+## Need help?
+
+If you’ve found any issues in this release please head over to github and open a bug so we can take a look.
