@@ -8,7 +8,7 @@ Pegasusstraße 12<br/>
 ## Contact Information
 
 Telephone: +49 3338 35 970 84<br/>
-E-Mail: [privacy@codeaffen.org](mailto:privacy@codeaffen.org)<br/>
+E-Mail: privacy_at_codeaffen_dot_org<br/>
 Internet address: [https://codeaffen.org](https://codeaffen.org)
 
 ## Disclaimer
