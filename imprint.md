@@ -6,7 +6,7 @@ tags: [contact, project, github, IRC]
 
 Information in accordance with Section 5 TMG
 
-Christian Meißner
+Christian Meißner\
 Pegasusstraße 12\
 16321 Bernau
 
