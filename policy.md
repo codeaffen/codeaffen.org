@@ -51,4 +51,4 @@ Hopefully that has clarified things for you and as was previously mentioned if t
 
 However if you are still looking for more information then you can contact us through one of our preferred contact methods:
 
-* Email: privacy@codeaffen.org
+* Email: privacy codeaffen org
