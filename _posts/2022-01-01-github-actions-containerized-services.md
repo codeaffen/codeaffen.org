@@ -60,7 +60,7 @@ make test-all
 
 ## Part two - local phpipam installation
 
-After having a working pytest setup for running our tests more easily we go on to provide a toolchain for setting up a local phpipam installation. This will give developers and contributors a working phpipam installation to test their modules against. We decided to use [docker](https://www.docker.com){:target="_blank"} and [docker-compose](https://docs.docker.com/compose/){:target="_blank"} for this purpose as we can easily start different containers for database and phpipam and alse tear them down after the tests are done.
+After having a working pytest setup for running our tests more easily we go on to provide a toolchain for setting up a local phpipam installation. This will give developers and contributors a working phpipam installation to test their modules against. We decided to use [docker](https://www.docker.com){:target="_blank"} and [docker-compose](https://docs.docker.com/compose/){:target="_blank"} for this purpose as we can easily start different containers for database and phpipam and also tear them down after the tests are done.
 
 ### docker-compose.yml
 
@@ -120,6 +120,9 @@ This script do exactly three things:
 1. Connect to the database container and create the database.
 2. Update the settings table to activate the API.
 3. Insert the API application.
+
+{: .box-note}
+**Note:** Connection from one container to another is done by the service name. In our case the phpipam service connects to the mariadb container via `database` as hostname.
 
 ### Makefile - phpipam related targets
 
