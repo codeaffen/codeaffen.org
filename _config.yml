@@ -18,6 +18,7 @@ navbar-links:
     - click: "projects/click-types"
     - hieradata: "projects/ansible-hiera-data"
     - phpipam: "projects/phpipam-ansible-modules"
+    - phpipam-action: "projects/phpipam-action"
     - phpypam: "projects/phpypam"
     - p3exporter: "projects/p3exporter"
   About: "about"
