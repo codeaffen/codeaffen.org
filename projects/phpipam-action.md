@@ -20,29 +20,48 @@ The action is hosted in a separate repository and available on [github marketpla
 ~~~yaml
 steps:
   - uses: actions/checkout@v2
-  - uses: codeaffen/phpipam-action@v1
+  - uses: codeaffen/phpipam-action@v2
+    with:
+      ipam_version: "1.4x"
 ~~~
 
 If the action finishes successfully you will be able to run your api tests against the phpipam installation.
 
 ~~~yaml
 - name: "Test phpipam api"
-        run: |
-          curl -k --user Admin:ipamadmin -X POST https://localhost/api/ansible/user/
+  run: |
+    curl -k --user Admin:ipamadmin -X POST https://localhost/api/ansible/user/
+~~~
+
+With the `ipam_version` parameter you will be able to test against different phpipam versions by using githubs build matrix feature. This is done by defining a job as follows:
+
+~~~yaml
+jobs:
+  matrix_test:
+    strategy:
+      matrix:
+        phpipam: ['1.4x','1.5x']
+    steps:
+      - uses: actions/checkout@v2
+      - name: run phpipam-action
+        uses: codeaffen/phpipam-action@v2
+        with:
+          ipam_version: ${{ matrix.phpipam }}
 ~~~
 
 ## Parameters
 
-{: .box-note}
-**Note:** There are several parameters defined in readme. These parameters were currently not used but they are here for future use.
+We provide the following parameters to configure the phpipam instance database:
 
-The parameters are prepared as follows:
-
+* **ipam_version**: the phpipam version to install: Default: "latest"
 * **ipam_database_host**: Database host phpipam connects to. Default: "database"
 * **ipam_database_user**: Database user phpipam needs to authenticate. Default: "phpipam"
 * **ipam_database_pass**: Database password phpipam needs to authenticate. Default: "phpipam"
 * **ipam_database_name**: Database name phpipam uses. Default: "phpipam"
 * **database_root_password**: Root password for the database. Default: "root"
+
+{: .box-note}
+**Note:** If you define a database host, the database (**ipam_database_name**) needs to be created or emptied  before the action can be executed.
 
 ## further resources
 
