@@ -35,19 +35,21 @@ If the action finishes successfully you will be able to run your api tests again
 
 With the `ipam_version` parameter you will be able to test against different phpipam versions by using githubs build matrix feature. This is done by defining a job as follows:
 
-~~~yaml
-jobs:
-  matrix_test:
-    strategy:
-      matrix:
-        phpipam: ['1.4x','1.5x']
-    steps:
-      - uses: actions/checkout@v2
-      - name: run phpipam-action
-        uses: codeaffen/phpipam-action@v2
-        with:
-          ipam_version: ${{ matrix.phpipam }}
-~~~
+{% highlight yaml %}
+{% raw %}
+ jobs:
+   matrix_test:
+     strategy:
+       matrix:
+         phpipam: ['1.4x','1.5x']
+     steps:
+       - uses: actions/checkout@v2
+       - name: run phpipam-action
+         uses: codeaffen/phpipam-action@v2
+         with:
+           ipam_version: ${{ matrix.phpipam }}
+{% endraw %}
+{% endhighlight %}
 
 ## Parameters
 
