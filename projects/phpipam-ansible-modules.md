@@ -88,6 +88,7 @@ tests/
 {% raw %}
 
 ---
+
 - name: "Ensure state of subnet: {{ name }}"
   subnet:
     server_url: "{{ phpipam_server_url }}"
@@ -114,7 +115,7 @@ tests/
     discover_subnet: "{{ subnet.discover_subnet | default(omit) }}"
     is_folder: "{{ subnet.is_folder | default(omit) }}"
     is_full: "{{ subnet.is_full | default(omit) }}"
-    subnet.state: "{{ subnet.subnet.state | default(omit) }}"
+    subnetr_state: "{{ subnet.subnet_state | default(omit) }}"
     threshold: "{{ subnet.threshold | default(omit) }}"
     location: "{{ subnet.location | default(omit) }}"
     state: "{{ subnet.state | default('present') }}"
