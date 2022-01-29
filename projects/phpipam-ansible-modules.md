@@ -5,6 +5,7 @@ subtitle: Ansible Modules to manage phpIPAM installations (aka. PAM)
 tags: [project, phpipam, api, python, ansible, modules, collection, galaxy]
 gh-repo: codeaffen/phpipam-ansible-modules
 gh-badge: [star, watch, fork, follow]
+last-updated: 2022-01-29
 ---
 
 ![Version on Galaxy](https://img.shields.io/badge/dynamic/json?style=flat&label=galaxy&prefix=v&url=https://galaxy.ansible.com/api/v2/collections/codeaffen/phpipam/&query=latest_version.version){:target="_blank"}
@@ -70,19 +71,22 @@ The directory structure for the test looks should look like this:
 ~~~bash
 tests/
 ├── inventory
-│   └── hosts
+│   └── hosts
 └── test_playbooks
     ├── subnet.yml
     ├── tasks
-    │   ├── subnet.yml
+    │   ├── subnet.yml
     └── vars
-        ├── server.yml
-        └── subnet.yml
+        ├── server.yml
+        └── subnet.yml
 ~~~
 
 ### the task
 
 {% highlight yaml linenos %}
+
+{% raw %}
+
 ---
 - name: "Ensure state of subnet: {{ name }}"
   subnet:
@@ -114,6 +118,7 @@ tests/
     threshold: "{{ subnet.threshold | default(omit) }}"
     location: "{{ subnet.location | default(omit) }}"
     state: "{{ subnet.state | default('present') }}"
+{% endraw %}
 {% endhighlight %}
 
 As you can see all parameters will be filled from variables. Most of the parameters will be omitted if they are undefined or empty.
@@ -146,10 +151,12 @@ phpipam_password: "test123"
 After you had created [the task](#the-task) and [the vars](#the-vars) file you can put all together in a playbook like this:
 
 {% highlight yaml linenos %}
+
+{% raw %}
 ---
 - hosts: localhost
   collections:
-    - codeaffen.phpipam
+  - codeaffen.phpipam
   gather_facts: false
   vars_files:
     - vars/server.yml
@@ -174,6 +181,7 @@ After you had created [the task](#the-task) and [the vars](#the-vars) file you c
         override:
           state: absent
         subnet: "{{ base_subnet_data | combine(override) }}"
+{% endraw %}
 {% endhighlight %}
 
 What does this playbook do?
