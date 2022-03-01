@@ -37,7 +37,7 @@ aspf | Alignment mode for SPF | aspf=r
 
 ## monitoring and visualisation with parsedmarc
 
-The reports are send to the email addresses configured in `ruf` and `rua` parameters in DMARC TXT resource record in xml format.
+The reports are sent to the email addresses configured in `ruf` and `rua` parameters in DMARC TXT resource record in xml format.
 
 <!-- markdownlint-disable MD033 -->
 {::options parse_block_html="true" /}
@@ -96,7 +96,7 @@ The reports are send to the email addresses configured in `ruf` and `rua` parame
 {::options parse_block_html="false" /}
 <!-- markdownlint-enable MD033 -->
 
-For visualisation and monitoring there are some populare commercial tools outside. Some of them are:
+For visualisation and monitoring there are some popular commercial tools outside. Some of them are:
 
 * [Agari Brand Protection](https://www.agari.com/products/brand-protection/){:target="_blank"}
 * [Dmarcian](https://dmarcian.com/){:target="_blank"}
@@ -270,7 +270,7 @@ This task id done by using the [Saved Objects UI](https://www.elastic.co/guide/e
 
 As for now we have setup elasticsearch, kibana and parsedmarc to import data and visualize it. As for now we have to start the parsedmarc service manually. This is not very convinient so we go ahead and setup systemd service.
 
-First of all we want to run the service with non root privileges so we need to create a user and a group. And we also want to restrict the access to parsedmarc configuration directory to that user and group.
+First of all we want to run the service with non-root privileges so we need to create a user and a group. And we also want to restrict the access to parsedmarc configuration directory to that user and group.
 
 ~~~bash
 groupadd -r parsedmarc
@@ -317,9 +317,9 @@ service parsedmarc start
 
 ### Conclusion
 
-DMARC is a very useful protocol to indicate that your mail server is protected against spam and phishing by spf and dkim and it implement a policy what should happen if a mail is not compliant with the policy.
+DMARC is a very useful protocol to indicate that your mail server is protected against spam and phishing by spf and dkim and it implements a policy what should happen if a mail is not compliant with the policy.
 
-It also implement a facility to get reports of the dmarc results via email in a common xml formant.
+It also implements a facility to get reports of the dmarc results via email in a common xml formant.
 
 To monitor the dmarc compliance you can choose a commercial solution but you can also use free software to implement a visualisation stack on your own. We show you how to setup eleasticsearch, kibana and parsedmarc to achieve this.
 
