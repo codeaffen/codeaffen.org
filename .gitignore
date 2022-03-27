@@ -1,5 +1,12 @@
+# no local development environment configurations
 .vscode
+
+# ruby files
 Gemfile.lock
-_site/*
 .ruby-version
 .ruby-gemset
+
+# jekyll specific files
+.jekyll-metadata
+.jekyll-cache
+_site/*
