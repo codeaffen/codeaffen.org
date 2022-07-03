@@ -1,24 +1,25 @@
 ---
 layout: post
-title: Helm Charts from ChartMuseum to Redhat Quay in 5 Steps
+title: Helm Charts from ChartMuseum to Red Hat Quay in 5 Steps
 subtitle: How to migrate from repository to registry
-tags: [kubernetes, openshift, helm, chart, repository, redhat, quay, registry]
+tags: [kubernetes, openshift, helm, chart, repository, , quay, registry]
 author: gmzabos
+last-updated: 2022-07-03
 ---
 
-Imagine the following situation you have an instance of ChartMuseum repository up & running for months now and it does serve Helm Charts. You also build up an instance of Redhat Quay in parallel, but it has been solely used for storing container images until now.
+Imagine the following situation you have an instance of ChartMuseum repository up & running for months now and it does serve Helm Charts. You also build up an instance of Red Hat Quay in parallel, but it has been solely used for storing container images until now.
 
 ## But why?
 
-With [Redhat Quay 3.5 (GA)](https://cloud.redhat.com/blog/quay-oci-artifact-support-for-helm-charts){:target="_blank"} it's possible to activate & use OCI Artifact Support for Helm charts, storing now both -container images & Helm Charts- in the same place. This and additional features of Redhat Quay made the decision easy to move the existing Helm Charts from ChartMuseum to Redhat Quay.
+With [Red Hat Quay 3.5 (GA)](https://cloud.redhat.com/blog/quay-oci-artifact-support-for-helm-charts){:target="_blank"} it's possible to activate & use OCI Artifact Support for Helm charts, storing now both -container images & Helm Charts- in the same place. This and additional features of Red Hat Quay made the decision easy to move the existing Helm Charts from ChartMuseum to Red Hat Quay.
 
 ### What is ChartMuseum?
 
 [ChartMuseum](https://github.com/helm/chartmuseum/){:target="_blank"} is an open-source Helm Chart repository server written in Go (Golang). Basically it's a HTTP server that serves packaged Helm Charts and an `index.yaml` file, which is an index of all Helm Charts in the repository.
 
-### What is Redhat Quay?
+### What is Red Hat Quay?
 
-[Redhat Quay](https://www.redhat.com/en/technologies/cloud-computing/quay){:target="_blank"} is an image registry. It comes with additional, enterprise-ready features (e.g. access control management, logging/auditing, etc.).
+[Red Hat Quay](https://www.redhat.com/en/technologies/cloud-computing/quay){:target="_blank"} is an image registry. It comes with additional, enterprise-ready features (e.g. access control management, logging/auditing, etc.).
 
 ### Prerequisites
 
@@ -29,9 +30,9 @@ With [Redhat Quay 3.5 (GA)](https://cloud.redhat.com/blog/quay-oci-artifact-supp
 export HELM_EXPERIMENTAL_OCI=1
 ~~~
 
-- Redhat Quay version 3.5+ is up & running, serving via a known URL (e.g https://quay.local.net)
-- Redhat Quay has an active user/organization (e.g. `my-helm-charts`)
-- Redhat Quay configuration file `config.yaml` has two properties set to enable the use of OCI artifacts:
+- Red Hat Quay version 3.5+ is up & running, serving via a known URL (e.g https://quay.local.net)
+- Red Hat Quay has an active user/organization (e.g. `my-helm-charts`)
+- Red Hat Quay configuration file `config.yaml` has two properties set to enable the use of OCI artifacts:
 
 ~~~text
 FEATURE_GENERAL_OCI_SUPPORT: true
@@ -48,7 +49,7 @@ helm repo update
 helm repo list
 ~~~
 
-### Step 2 - Connect Redhat Quay registry
+### Step 2 - Connect Red Hat Quay registry
 
 Next you have to add your Quay instance as a registry to your helm instance.
 
@@ -90,4 +91,4 @@ helm install webserver
 
 ## Summary
 
-With this simplified five step demonstration you should be able to get the idea, how to migrate your Helm Charts to Redhat Quay registry. Depending on the amount of Helm Charts, the workflow can be automated. This can make sense if both -ChartMuseum repository & Redhat Quay registry- coexist for a longer time and you need to have a synchronisation of both in place.
+With this simplified five step demonstration you should be able to get the idea, how to migrate your Helm Charts to Red Hat Quay registry. Depending on the amount of Helm Charts, the workflow can be automated. This can make sense if both -ChartMuseum repository & Red Hat Quay registry- coexist for a longer time and you need to have a synchronisation of both in place.
