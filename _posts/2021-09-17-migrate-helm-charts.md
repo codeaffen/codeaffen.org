@@ -2,7 +2,7 @@
 layout: post
 title: Helm Charts from ChartMuseum to Red Hat Quay in 5 Steps
 subtitle: How to migrate from repository to registry
-tags: [kubernetes, openshift, helm, chart, repository, , quay, registry]
+tags: [kubernetes, openshift, helm, chart, repository, redhat, quay, registry]
 author: gmzabos
 last-updated: 2022-07-03
 ---
