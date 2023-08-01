@@ -2,6 +2,7 @@
 .vscode
 
 # ruby files
+.bundle
 Gemfile.lock
 .ruby-version
 .ruby-gemset
@@ -10,3 +11,7 @@ Gemfile.lock
 .jekyll-metadata
 .jekyll-cache
 _site/*
+
+# local test and development environment
+.env
+tmp/*
