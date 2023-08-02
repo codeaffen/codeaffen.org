@@ -12,7 +12,7 @@ This operator provides some nice CRDs to automatically discover attached devices
 
 ## Lab environment
 
-To test our solution we installed an OpenShift cluster with 3 control plan and 3 worker nodes. We also attached 3 100GB volumes to each worker node.
+To test our solution we installed an OpenShift cluster with 3 control plane and 3 worker nodes. We also attached 3x 100GB volumes to each worker node.
 
 In the cluster we installed the `Local Storage` and `OpenShift Data Foundation` operators from `OperatorHub`. Please have a look into the official documentation for details.
 
@@ -73,20 +73,20 @@ This will create a `LocalVolumeSet` and `StorageClass` with name `localvolumeset
 
 ## Fixing LocalVolumeSet
 
-If you want to decrease the amount of used disks you have to be careful and needs to got through different steps to achieve it. We will show two situations with a detailed step-by-step guides to solve it.
+If you want to decrease the amount of used disks you have to be careful and need to go through different steps to achieve it. We will show two situations with a detailed step-by-step guides to solve it.
 
 ### missing maxDeviceCount
 
 A LocalVolumeSet will allocate all available disks if you don´t configure the `maxDeviceCount` parameter in your resource definition.
 
 {: .box-warning}
-**Warning:** If you add or decrease the `maxDeviceCount` parameter there wil no disks removed from the LocalVolumeSet. You need to do some extra steps to reduce the allocated disk count.
+**Warning:** If you add or decrease the `maxDeviceCount` parameter there will be no disks removed from the LocalVolumeSet. You need to do some extra steps to reduce the allocated disk count.
 
 {: .box-error}
-**Caution:** The following procedure could harm your cluster storage. It is absolutely recommanded to have a backup of your data in place.
+**Caution:** The following procedure could harm your cluster storage. It is absolutely recommended to have a backup of your data in place.
 
 {: .box-note}
-If there are `PersistenVolumens` attached to the desired `StorageClass` in status `Avaiable` you could proceed.
+If there are `PersistenVolumens` attached to the desired `StorageClass` in status `Available` you could proceed.
 
 If you forgot to configure the `maxDeviceCount` parameter by accident we show now how To fix this issue:
 
@@ -129,7 +129,7 @@ If you forgot to configure the `maxDeviceCount` parameter by accident we show no
     Temporary namespace openshift-debug-XXXXX was removed.
     ```
 
-4. remove persistent Volumens related to Local Volume Set
+4. remove persistent Volumes related to Local Volume Set
 
     ```shell
     $ oc delete pv -l storage.openshift.com/owner-name=localvolumeset01                                                                                                <aws:remove_localvolumeset> <region:eu-central-1>
@@ -143,13 +143,13 @@ After a while you should see that only three Persistent Volumes are linked to ou
 
 ### decrease disk count
 
-While increasing the disk count is very simple by simply increasing the value of `maxDeviceCount` to the desired number of disks per node but decreasing the number of allocated disks is not such easy. We will show how the task can still be solved.
+While increasing the disk count is very simple by simply increasing the value of `maxDeviceCount` to the desired number of disks per node but decreasing the number of allocated disks is not this easy. We will show how the task can still be solved.
 
 {: .box-error}
-**Caution:** The following procedure could harm your cluster storage. It is absolutely recommanded to have a backup of your data in place.
+**Caution:** The following procedure could harm your cluster storage. It is absolutely recommended to have a backup of your data in place.
 
 {: .box-note}
-If there are `PersistenVolumens` attached to the desired `StorageClass` in status `Avaiable` you could proceed.
+If there are `PersistenVolumes` attached to the desired `StorageClass` in status `Available` you could proceed.
 
 In our example we have increased the `maxDeviceCount` to 2 by accident but we want to decrease the value back to 1. To achieve this we need to follow this procedere.
 
@@ -211,7 +211,7 @@ In our example we have increased the `maxDeviceCount` to 2 by accident but we wa
 
 5. delete corresponding PVs
 
-    As there is now no disk attached to the local devices on each node we can safely remove the corresponding Persisten Volumens.
+    As there is now no disk attached to the local devices on each node we can safely remove the corresponding Persistent Volumes.
 
     ```shell
     oc delete pv $(oc get pv -o json | jq -r '.items[] | select(.status.phase == "Available") | .metadata.name')
