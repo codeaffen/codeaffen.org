@@ -149,7 +149,7 @@ While increasing the disk count is very simple by simply increasing the value of
 **Caution:** The following procedure could harm your cluster storage. It is absolutely recommended to have a backup of your data in place.
 
 {: .box-note}
-If there are `PersistenVolumes` attached to the desired `StorageClass` in status `Available` you could proceed.
+If there are `PersistentVolumes` attached to the desired `StorageClass` in status `Available` you could proceed.
 
 In our example we have increased the `maxDeviceCount` to 2 by accident but we want to decrease the value back to 1. To achieve this we need to follow this procedere.
 
@@ -161,9 +161,9 @@ In our example we have increased the `maxDeviceCount` to 2 by accident but we wa
 
     ```
 
-    This prevents the LocalVolumeSet from claiming the devices again after we releasing them.
+    This prevents the LocalVolumeSet from claiming the devices again after releasing them.
 
-2. check current Persisten Volumes
+2. check current Persistent Volumes
 
     ```shell
     $ oc get pv -o custom-columns="NAME:.metadata.name,STORAGECLASS:.spec.storageClassName,STATUS:.status.phase"
@@ -176,11 +176,11 @@ In our example we have increased the `maxDeviceCount` to 2 by accident but we wa
     local-pv-f88de77b   localvolumeset01   Available
     ```
 
-    The listing show 3 Persisten Volumes which are not claimed right now. These PVs and the corresponding disks we want to set free.
+    The listing show 3 Persistent Volumes which are not claimed right now. These PVs and the corresponding disks we want to set free.
 
 3. get node name and paths associated to devices of each pv
 
-    To release the disks we need to know the mount path and the corresponding node name. To get this data we request all pv resource definitions in json format and pipe it through `jq`. In `jq` we filter all pvs in status `Available` and create dicts with the data we need for the next step.
+    To release the disks we need to know the mount path and the corresponding node name. To get this data we request all PV resource definitions in json format and pipe it through `jq`. In `jq` we filter all pvs in status `Available` and create dicts with the data we need for the next step.
 
     ```shell
     $ oc get pv -o json | jq '.items[] | select(.status.phase == "Available") | {host: .metadata.labels."kubernetes.io/hostname", path: .spec.local.path}'
