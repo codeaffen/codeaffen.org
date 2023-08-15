@@ -12,7 +12,7 @@
 
   {% if site.share-links-active.twitter %}
     <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}"
-      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter" target="_blank" rel="noopener noreferrer">
       <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
       <span class="sr-only">Twitter</span>
     </a>
@@ -20,7 +20,7 @@
 
   {% if site.share-links-active.facebook %}
     <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}"
-      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook" target="_blank" rel="noopener noreferrer">
       <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
       <span class="sr-only">Facebook</span>
     </a>
@@ -28,7 +28,7 @@
 
   {% if site.share-links-active.linkedin %}
     <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}"
-      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer">
       <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
       <span class="sr-only">LinkedIn</span>
     </a>
@@ -36,7 +36,7 @@
 
   {% if site.share-links-active.xing %}
   <a href="https://www.xing.com/spi/shares/new?url={{ page.url | absolute_url | url_encode }}"
-    class="btn btn-social-icon btn-xing" title="Share on xing">
+    class="btn btn-social-icon btn-xing" title="Share on xing" target="_blank" rel="noopener noreferrer">
     <span class="fab fa-fw fa-xing" aria-hidden="true"></span>
     <span class="sr-only">xing</span>
   </a>
@@ -44,7 +44,7 @@
 
   {% if site.share-links-active.vk %}
     <a href="https://vk.com/share.php?url={{ page.url | absolute_url | url_encode }}"
-      class="btn btn-social-icon btn-vk" title="Share on VK">
+      class="btn btn-social-icon btn-vk" title="Share on VK" target="_blank" rel="noopener noreferrer">
       <span class="fab fa-fw fa-vk" aria-hidden="true"></span>
       <span class="sr-only">VK</span>
     </a>
@@ -52,7 +52,7 @@
 
   {% if site.share-links-active.mastodon %}
   <a href="https://mastodonshare.com/?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}"
-    class="btn btn-social-icon btn-mastodon" title="Share on mastodon">
+    class="btn btn-social-icon btn-mastodon" title="Share on mastodon" target="_blank" rel="noopener noreferrer">
     <span class="fab fa-fw fa-mastodon" aria-hidden="true"></span>
     <span class="sr-only">mastodon</span>
   </a>
