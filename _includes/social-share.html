@@ -50,6 +50,13 @@
     </a>
   {% endif %}
 
+  {% if site.share-links-active.mastodon %}
+  <a href="https://mastodonshare.com/?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}"
+    class="btn btn-social-icon btn-mastodon" title="Share on mastodon">
+    <span class="fab fa-fw fa-mastodon" aria-hidden="true"></span>
+    <span class="sr-only">mastodon</span>
+  </a>
+  {% endif %}
 </section>
 
 {% endif %}
