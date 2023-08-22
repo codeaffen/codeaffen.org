@@ -27,7 +27,7 @@ env LANGUAGE=de_DE /usr/bin/flatpak run org.signal.Signal
 
 As Signal uses [get_language_names](https://docs.gtk.org/glib/func.get_language_names.html){:target="_blank"} function from `GLib` it is possible to define more than one language to be used.
 
-To define different language you need to separate each other by a colon. E.g.
+To define multiple, different languages you need to separate each other by a colon. E.g.
 
 ```shell
 LANGUAGE=en_US:de_DE:it_IT
