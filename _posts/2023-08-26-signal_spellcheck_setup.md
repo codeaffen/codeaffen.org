@@ -5,7 +5,7 @@ subtitle: Setting up multiple languages for spell checking
 tags: [signal, signal-desktop, desktop, spellcheck, language, locales, configuration]
 author: cmeissner
 ---
-Using `Signal` as the messenger of your choice is always a good idea. It provides **State-of-the-art end-to-end encryption**, **Text-**, **Text-** and **Video-Chats**. You can chat 1:1 or in **Groups**. There are no adds in and it is always free for everyone. And finally it provides a desktop client for the main desktop OSes (Windows, OSX and Linux).
+Using `Signal` as the messenger of your choice is always a good idea. It provides **State-of-the-art end-to-end encryption**, **Text-**, **Voice-** and **Video-Chats**. You can chat 1:1 or in **Groups**. There are no adds in and it is always free for everyone. And finally it provides a desktop client for the main desktop OSes (Windows, OSX and Linux).
 
 Unfortunately Signal Desktop app on Gnome (Fedora 38) does not facilitate `hunspell`, `aspell` or comparable and it does not support setup of spellcheck langues via its UI. So we need to find another solution for getting more than your default desktop locale as a spell checking language setted up.
 
