@@ -31,29 +31,24 @@ To report found bugs or ideas for our projects we provide issue templates for *B
 
 In all of our projects we use the github discussion system to provide a way to have discussion with users and developers. Other as IRC the discussion persists in this media so others get the chance to read it later.
 
-## [libera.chat](https://libera.chat){:target="_blank"}
+## [discord server](https://discord.gg/EAYt5B4xQk){:target="_blank"}
 
-We started two IRC channels to provide real-time help. It would be nice to see you soon here.
+We started a discord server to provide real-time help. It would be nice to see you soon there.
 
-For questions of using our software or discussion about articles here you can use our user channel:
+For questions of using our software we provide a channel per project. If you want to or you already contribute to one or more projects feel free to raise questions in #contributors channel.
 
-* #codeaffen on [libera.chat](https://libera.chat){:target="_blank"}
+For discussion about articles you can use #blog channel. Feel free to drop ideas for new blog posts there also.
 
-For any development related topics please feel free to use the development channel:
+### Real time chat Guidelines
 
-* #codeaffen-dev on [libera.chat](https://libera.chat){:target="_blank"}
+In addition to the [general guidelines](#communication-and-community-guidelines) above, we also have a few RTC-specific guidelines:
 
-### IRC Guidelines
-
-In addition to the [general guidelines](https://theforeman.org/support.html#CommunityGuidelines){:target="_blank"} above, we also have a few IRC-specific guidelines:
-
-* Don’t post chunks: Avoid posting big chunks of text - use a [pastebin](http://pastie.org/){:target="_blank"} or similar service to shorten it to a link. Likewise, try not to spam the channel with many messages, it breaks the flow of other conversations.
+* Don’t post unformated chunks: Avoid posting big chunks of post commands + there output or pieces of code as unformated text - use codeblocks with a language specified. Likewise, try not to spam the channel with a ton of unformated messages, it breaks the flow of other conversations.
 * Don’t private message: Ask permission before you send someone a private message (PM). Not everyone likes them. Also, by keeping it in public, others with similar issues can see the solution you were given.
 * Don’t highlight specific people unless you are already discussing something with them. Highlighting a specific user with your opening question makes it far less likely others will respond.
-More information: This [IRC primer](https://www.irchelp.org/faq/ircprimer.html){:target="_blank"} for new users and the [general IRC guidelines](https://libera.chat/guides){:target="_blank"}, from libera.chat, are also useful resources.
 
 (Thanks to the [Puppet Labs IRC Guidelines](https://puppet.com/community/community-guidelines/#slack-irc-guidelines){:target="_blank"} for the original document)
 
-## [twitter](https://twitter.com/codeaffen){:target="_blank"}
+## [mastodon](https://social.tchncs.de/@codeaffen){:target="_blank"}
 
-Feel free to follow us on Twitter. We try tweet there more or less interesting stuff besides codeaffen content.
+Feel free to follow us on Mastodon. We try tweet there more or less interesting stuff besides codeaffen content.
