@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 subtitle: Communicate & contribute
-tags: [contact, project, github, IRC]
+tags: [contact, project, github, diccord, RTC, guidelines, mastodon]
 ---
 
 ## Communication and Community Guidelines
@@ -29,7 +29,7 @@ To report found bugs or ideas for our projects we provide issue templates for *B
 
 ### github discussion
 
-In all of our projects we use the github discussion system to provide a way to have discussion with users and developers. Other as IRC the discussion persists in this media so others get the chance to read it later.
+In all of our projects we use the github discussion system to provide a way to have discussion with users and developers. Discussion persists and grouped in this media so others get the chance to read it later.
 
 ## [discord server](https://discord.gg/EAYt5B4xQk){:target="_blank"}
 
