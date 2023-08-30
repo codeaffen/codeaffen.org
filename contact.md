@@ -43,7 +43,7 @@ For discussion about articles you can use #blog channel. Feel free to drop ideas
 
 In addition to the [general guidelines](#communication-and-community-guidelines) above, we also have a few RTC-specific guidelines:
 
-* Don’t post unformated chunks: Avoid posting big chunks of post commands + there output or pieces of code as unformated text - use codeblocks with a language specified. Likewise, try not to spam the channel with a ton of unformated messages, it breaks the flow of other conversations.
+* Don’t post unformatted chunks: Avoid posting big chunks of post commands + there output or pieces of code as unformatted text - use codeblocks with a language specified. Likewise, try not to spam the channel with a ton of unformatted messages, it breaks the flow of other conversations.
 * Don’t private message: Ask permission before you send someone a private message (PM). Not everyone likes them. Also, by keeping it in public, others with similar issues can see the solution you were given.
 * Don’t highlight specific people unless you are already discussing something with them. Highlighting a specific user with your opening question makes it far less likely others will respond.
 
