@@ -10,7 +10,7 @@ author: cmeissner
 
 We are proud to announce the release of version 1.7.0 of phpipam-ansible-modules.
 
-This release contains one new modules, a bug fixe and few enhencements.
+This release contains one new module, a bugfix and a few enhencements.
 We also add some new tests to improve the test coverage.
 
 ## Bugfixes
