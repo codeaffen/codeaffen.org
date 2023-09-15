@@ -1,0 +1,7 @@
+matrix:
+- name: Article Markdowns
+  aspell:
+    lang: en
+    d: en_US
+  sources:
+  - _posts/2023-09-25-custom-keyboard-layouts-with-xkb.md
