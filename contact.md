@@ -31,7 +31,7 @@ To report found bugs or ideas for our projects we provide issue templates for *B
 
 In all of our projects we use the github discussion system to provide a way to have discussion with users and developers. Discussion persists and grouped in this media so others get the chance to read it later.
 
-## [discord server](http://affen.link/discord){:target="_blank"}
+## [discord server](https://affen.link/discord){:target="_blank"}
 
 We started a discord server to provide real-time help. It would be nice to see you soon there.
 
