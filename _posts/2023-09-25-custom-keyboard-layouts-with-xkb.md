@@ -8,7 +8,7 @@ tags: [custom keyboard layout, keyboard layout, keyboard variant, ubuntu, fedora
 
 There are different reasons why the definition of custom keyboard layouts can become necessary.
 
-1. A developer prefer to use us intl. Keyboard layout because of the intuitive positioned symbols needed for writing code
+1. A developer prefers to use us intl. Keyboard layout because of the intuitive positioned symbols needed for writing code
 2. A writer who is writing texts in more than one language (e.g. English, German, Italian) and doesn’t want to switch between different layout but want able to use all the special characters in each language
 
 There are probably a number of other reasons, but we the examples shown above should be enough.
@@ -68,7 +68,7 @@ xkb_symbols "usde" {
 <!-- markdownlint-enable MD033 -->
 
 1. We define our layout within the `xkb_symbols` section
-2. Foremost, we include the layout `us(alt-intl)` which works well for us so far, and we don't want to define all the keys again
+2. Foremost, we include the layout `us(alt-intl)` which works well for us so far, and we don’t want to define all the keys again
 3. We define the tilde key to work as `backtick` (dead key) and `tilde` (/w shift). In combination with `ralt` we define the `section` key and the `plusminus` key (/w shift)
 4. We define the s key to work as `sS` and `ß` and upper umlaut ß (/w shift)
 5. We define the c key to work as `cC` and in combination with `ralt` the cent sign and the copyright sign  (/w shift)
@@ -122,20 +122,20 @@ To make your layouts discoverable, tools rely on `evdev.xml` file. To add your c
 <!-- markdownlint-enable MD033 -->
 
 1. We defined a new layout named `codeaffen`. This will map to the definition file created before
-2. We also define a short description  `usde`. The short description will be shown in the layout switch tray icon (if more than on layout is configured)
+2. We also define a short description `usde`. The short description will be shown in the layout switch tray icon (if more than on layout is configured)
 3. The description will be shown in the configuration dialog (e.g. in Gnome, Tray chooser)
 4. We bound the layout to all languages with ISO ID `eng` and `deu` as well as countries with ISO ID `US` and `DE`
 
-![Keyboard Layout Tray Chooser](../assets/img/select_keyboard_layout_tray.png){: .mx-auto.d-block :}
+![Keyboard Layout Tray Chooser](../assets/img/select_keyboard_layout_tray.png){:.mx-auto.d-block :}
 
-## setup your keyboard
+## set up your keyboard
 
 {: .box-note}
 **Note:** It can be necessary to logout and relogin to make the layout available.
 
 Now you can select your newly defined layout in the configuration dialog.
 
-![Select your keyboard layout](../assets/img/select_keyboard_layout_fedora.png){: .mx-auto.d-block :}
+![Select your keyboard layout](../assets/img/select_keyboard_layout_fedora.png){:.mx-auto.d-block :}
 
 From now on, you can use all the defined key combos as you would normally do.
 
