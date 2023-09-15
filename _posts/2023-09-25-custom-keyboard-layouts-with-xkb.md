@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Custom Keyboard Layouts with xkb
-subtitle: How to define and install a custom keyboard layouts
+subtitle: How to define and install a custom keyboard layout
 author: cmeissner
 tags: [custom keyboard layout, keyboard layout, keyboard variant, ubuntu, fedora, X11, xkb, Wayland]
 ---
@@ -9,7 +9,7 @@ tags: [custom keyboard layout, keyboard layout, keyboard variant, ubuntu, fedora
 There are different reasons why the definition of custom keyboard layouts can become necessary.
 
 1. A developer prefer to use us intl. keyboard layout because of the intuitive positioned symbols needed for writing code
-2. A writer who is writing texts in more than one language (e.g English, German, Italien) and don't want to switch between different layourt but want able to use all special characters in each language
+2. A writer who is writing texts in more than one language (e.g English, German, Italian) and don't want to switch between different layouts but want to be able to use all special characters in each language
 
 There are probably a number of other reasons, but we the examples shown above should be enough.
 
@@ -21,24 +21,24 @@ In modern linux distributions the `xkb` facility is a core component for definin
 
 The configuration for `xkb` can be found in `/usr/share/X11/xkb`. There are two sub directories we are interested in.
 
-1. `symbols`, here you find keyboard layouts definitions
+1. `symbols`, here you find keyboard layout definitions
 2. `rules`, provides files for mapping a definition to a configuration
 
 {: .note-warning}
-In our former article ([Custom Keyboard Layouts on Ubuntu](../2022-02-07-custom-keyboard-layout)) we does our changes within this directories. This procedure is not that good as custom changes will be reverted on each `xkeyboard-config` package upgrade.
+In our former article ([Custom Keyboard Layouts on Ubuntu](../2022-02-07-custom-keyboard-layout)) we did our changes within this directories. This procedure is not that good as custom changes will be reverted on each `xkeyboard-config` package upgrade.
 
 The following text will focus on how to configure `xkb` with custom keyboard layouts and make them per user or globally available and upgrade safe.
 
 ### xkb user configuration
 
-Locating `xkb` configurations is done in `libxkbcommon` and this library walk through a set of directories to find configurations. This search paths make it possible to make configurations either per user or globally available. The following paths will be search in the given order.
+Locating `xkb` configurations is done in `libxkbcommon` and this library walk through a set of directories to find configurations. This search paths make it possible to make configurations either per user or globally available. The following paths will be searched in the given order.
 
 1. `$XDG_CONFIG_HOME/xkb/`, or `$HOME/.config/xkb/` if the `$XDG_CONFIG_HOME` is not defined
 2. `$HOME/.xkb/`
 3. `$XKB_CONFIG_EXTRA_PATH/xkb` if `$XKB_CONFIG_EXTRA_PATH` is defined, otherwise `<sysconfdir>/xkb` (mostly this is /etc/xkb)
 4. `$XKB_CONFIG_ROOT/X11/xkb` if `$XKB_CONFIG_ROOT` is defined, otherwise `<datadir>/X11/xkb/` (mostly this is /usr/share/X11/xkb)
 
-We we will show how to creat you custom layout with option 1). To make your layout machine globally available you can create the discussed files and direcoties in the base mentioned in option 3).
+We will show how to create your custom layout with option 1). To make your layout machine globally available you can create the discussed files and direcoties in the base mentioned in option 3).
 
 ## creating you layout
 
