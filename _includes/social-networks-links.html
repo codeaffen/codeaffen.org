@@ -240,6 +240,18 @@
   </li>
 {%- endif -%}
 
+{%- if site.social-network-links.discord -%}
+  <li class="list-inline-item">
+    <a rel="me" href="https://{{ site.social-network-links.discord }}" title="discord">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-discord fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">discord</span>
+    </a>
+  </li>
+{%- endif -%}
+
 {%- if site.social-network-links.ORCID -%}
  <li class="list-inline-item">
    <a href="https://orcid.org/{{ site.social-network-links.ORCID }}" title="ORCID">
