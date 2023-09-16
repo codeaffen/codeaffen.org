@@ -24,6 +24,7 @@ navbar-links:
   About: "about"
   Contact: "contact"
   Imprint: "imprint"
+  Tags: "tags"
 
 # --- Logo --- #
 
@@ -64,6 +65,7 @@ social-network-links:
 # telegram: yourname
 # calendly: yourname
   mastodon: social.tchncs.de/@codeaffen
+  discord: affen.link/discord
 # ORCID: your ORCID ID
 # google-scholar: your google scholar
 
