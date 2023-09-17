@@ -9,7 +9,7 @@ last-update: 2023-09-14
 
 {: .box-warning}
 There is a updated version on how to make keyboard layouts available and especially safe against `xkeyboard-config` package upgrades.
-Please have a look at [Custom Keyboard Layouts with xkb](../2023-09-25-custom-keyboard-layouts-with-xkb).
+Please have a look at [Custom Keyboard Layouts with xkb](../2023-09-16-custom-keyboard-layouts-with-xkb).
 
 As a developer I prefer to use the us intl. keyboard layout as many symboles are positioned better than on the german keyboard layout.
 But on the other side I also have to write texts in german and I need to have access to all german umlauts and symboles. Unfortunately there is no layout that suited in all details to my daily needs. Here comes the ability to define a custom keyboard layout in account.
