@@ -4,6 +4,7 @@ title: Build matrix in github workflows
 subtitle: Run jobs in different variations
 tags: [github, workflow, github-action, automated testing, build matrix, continuous-integration, docker]
 author: cmeissner
+redirect_from: /2022-01-30-matrix-build-with-custom-github-action/
 ---
 
 In the last blog post [github actions - containerized services](https://codeaffen.org/2022-01-01-github-actions-containerized-services/) we described how to use containerized services to run tests against a fresh phpipam installation in each test run.

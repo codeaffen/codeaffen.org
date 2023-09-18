@@ -6,6 +6,7 @@ tags: [project, release, announcement, phpypam]
 gh-repo: codeaffen/phpypam
 gh-badge: [star, watch, fork, follow]
 author: cmeissner
+redirect_from: /2021-09-06-phpypam-announcement-1.0.2/
 ---
 
 We are proud to announce the release of version 1.0.2 of phpypam.

@@ -4,6 +4,7 @@ title: Custom Keyboard Layouts with xkb
 subtitle: How to define and install a custom keyboard layout
 author: cmeissner
 tags: [custom keyboard layout, keyboard layout, keyboard variant, ubuntu, fedora, X11, xkb, Wayland]
+redirect_from: /2023-09-16-custom-keyboard-layouts-with-xkb/
 ---
 
 There are different reasons why the definition of custom keyboard layouts can become necessary.
@@ -25,7 +26,7 @@ The configuration for `xkb` can be found in `/usr/share/X11/xkb`. There are two 
 2. `rules`, provides files for mapping a definition to a configuration
 
 {: .note-warning}
-In our former article ([Custom Keyboard Layouts on Ubuntu](../2022-02-07-custom-keyboard-layout)) we did our changes within these directories. This procedure is not that good, as custom changes will be reverted on each `xkeyboard-config` package upgrade.
+In our former article ([Custom Keyboard Layouts on Ubuntu](/2022-02-07-custom-keyboard-layout)) we did our changes within these directories. This procedure is not that good, as custom changes will be reverted on each `xkeyboard-config` package upgrade.
 
 The following text will focus on how to configure `xkb` with custom keyboard layouts and make them per user or globally available and upgrade safe.
 
@@ -126,7 +127,7 @@ To make your layouts discoverable, tools rely on `evdev.xml` file. To add your c
 3. The description will be shown in the configuration dialog (e.g. in Gnome, Tray chooser)
 4. We bound the layout to all languages with ISO ID `eng` and `deu` as well as countries with ISO ID `US` and `DE`
 
-![Keyboard Layout Tray Chooser](../assets/img/select_keyboard_layout_tray.png){:.mx-auto.d-block :}
+![Keyboard Layout Tray Chooser](/assets/img/select_keyboard_layout_tray.png){:.mx-auto.d-block :}
 
 ## set up your keyboard
 
@@ -135,7 +136,7 @@ To make your layouts discoverable, tools rely on `evdev.xml` file. To add your c
 
 Now you can select your newly defined layout in the configuration dialog.
 
-![Select your keyboard layout](../assets/img/select_keyboard_layout_fedora.png){:.mx-auto.d-block :}
+![Select your keyboard layout](/assets/img/select_keyboard_layout_fedora.png){:.mx-auto.d-block :}
 
 From now on, you can use all the defined key combos as you would normally do.
 

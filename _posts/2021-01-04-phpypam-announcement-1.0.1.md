@@ -7,6 +7,7 @@ gh-repo: codeaffen/phpypam
 gh-badge: [star, watch, fork, follow]
 author: cmeissner
 last-updated: 2021-01-05
+redirect_from: /2021-01-04-phpypam-announcement-1.0.1/
 ---
 
 We are proud to announce the release of version 1.0.1 of phpypam.

@@ -6,6 +6,7 @@ tags: [project, release, announcement, pam, phpipam, phpipam-ansible-modules]
 gh-repo: codeaffen/phpipam-ansible-modules
 gh-badge: [star, watch, fork, follow]
 author: cmeissner
+redirect_from: /2022-03-07-phpipam-announcement-1.5.0/
 ---
 
 We are proud to announce the release of version 1.5.0 of phpipam-ansible-modules.

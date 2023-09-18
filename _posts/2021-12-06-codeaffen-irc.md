@@ -4,9 +4,10 @@ title: Codeaffen on Libera.chat network
 subtitle: user and developer channels on IRC
 tags: [project, homepage, contact, irc, libera.chat]
 author: cmeissner
+redirect_from: /2021-12-06-codeaffen-irc/
 ---
 
-In January we decided to start with [keybase](2021-01-05-contact-us-at-keybase) as communication platform. Unfortunately this network is not so popular as it should be. As we don't want to use networks like slack only because all others do this we now opened two IRC channels on [Libera.chat](https://libera.chat){:target="_blank"} as this technology is well tested and a good point for finding together quick and easy. 
+In January we decided to start with [keybase](2021-01-05-contact-us-at-keybase) as communication platform. Unfortunately this network is not so popular as it should be. As we don't want to use networks like slack only because all others do this we now opened two IRC channels on [Libera.chat](https://libera.chat){:target="_blank"} as this technology is well tested and a good point for finding together quick and easy.
 
 ## User channel
 

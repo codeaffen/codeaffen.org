@@ -6,6 +6,7 @@ tags: [project, release, announcement, phpipam, phpipam-aaction, github-action, 
 gh-repo: codeaffen/phpipam-action
 gh-badge: [star, watch, fork, follow]
 author: cmeissner
+redirect_from: /2022-01-15-phpipam-action-announcement-v1/
 ---
 
 We are proid to announce the release of version v1 of our phpipam-action.

@@ -4,6 +4,7 @@ title: How to issue an asset on Stellar
 subtitle: AFFEN goes live
 tags: [poc, blockchain, stellar, token, asset, github]
 author: gmzabos
+redirect_from: /2021-03-09-stellar-issue-asset/
 ---
 
 ## Intro: What is Stellar?

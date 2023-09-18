@@ -4,6 +4,7 @@ title: Oh my zsh walkthrough
 subtitle: Get the best out of your Z shell
 tags: [development, shell, zsh, ohmyzsh, OMZ, environment, configuration, themes, plugins]
 author: cmeissner
+redirect_from: /2021-07-16-oh-my-zsh-walkthrough/
 ---
 
 Configuring your shell to get the best out of it can become a tedious task. Some common tasks are:

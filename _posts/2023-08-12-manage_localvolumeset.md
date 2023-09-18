@@ -4,6 +4,7 @@ title: Managing LocalVolumeSet of Local Storage Operator
 subtitle: How to manage disks of a Local Volume Set
 tags: [openshift, operator, local-storage-operator, localvolumeset, localdiscovery]
 author: cmeissner
+redirect_from: /2023-08-12-manage_localvolumeset/
 ---
 
 If you use OpenShift Data Foundation in you environment and you want to use local disks of your worker/infra nodes then the Local Storage operator could be your choice.

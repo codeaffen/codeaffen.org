@@ -7,6 +7,7 @@ gh-repo: codeaffen/ansible-hiera-data
 gh-badge: [star, watch, fork, follow]
 author: cmeissner
 last-updated: 2021-01-05
+redirect_from: /2020-12-22-hieradata-announcement-0.1.0/
 ---
 
 We are proud to announce the release of version 0.1.0 of our new ansible collection.
