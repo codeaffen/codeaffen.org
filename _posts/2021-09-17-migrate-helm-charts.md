@@ -5,6 +5,7 @@ subtitle: How to migrate from repository to registry
 tags: [kubernetes, openshift, helm, chart, repository, redhat, quay, registry]
 author: gmzabos
 last-updated: 2022-07-03
+redirect_from: /2021-09-17-migrate-helm-charts/
 ---
 
 Imagine the following situation you have an instance of ChartMuseum repository up & running for months now and it does serve Helm Charts. You also build up an instance of Red Hat Quay in parallel, but it has been solely used for storing container images until now.
@@ -23,7 +24,7 @@ With [Red Hat Quay 3.5 (GA)](https://cloud.redhat.com/blog/quay-oci-artifact-sup
 
 ### Prerequisites
 
-- ChartMuseum is up & running, serving via a known API URL (e.g. https://chartmuseum.local.net)
+- ChartMuseum is up & running, serving via a known API URL (e.g. (https://chartmuseum.local.net))
 - An admin host is up & running. The `helm` binary is release v3.x or higher (see: `helm version`), you have set an extra environment variable:
 
 ~~~shell

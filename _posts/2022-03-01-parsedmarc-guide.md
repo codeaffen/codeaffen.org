@@ -6,6 +6,7 @@ cover-img: /assets/img/parsedmarc_header.png
 thumbnail-img: /assets/img/DMARC-logo.png
 author: cmeissner
 tags: [parsedmarc, dmarc, spf, dkim, anti spam, elasticsearch, kibana]
+redirect_from: /2022-03-01-parsedmarc-guide/
 ---
 
 DMARC stands for "Domain-based Message Authentication, Reporting and Conformance". It is as protocol for email authentication, policy and reporting.

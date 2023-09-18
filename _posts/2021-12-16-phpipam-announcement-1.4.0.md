@@ -7,6 +7,7 @@ gh-repo: codeaffen/phpipam-ansible-modules
 gh-badge: [star, watch, fork, follow]
 author: cmeissner
 last-updated: 2021-12-16
+redirect_from: /2021-12-16-phpipam-announcement-1.4.0/
 ---
 
 We are proud to announce the release of version 1.4.0 of phpipam-ansible-modules.

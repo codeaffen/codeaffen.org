@@ -5,6 +5,7 @@ subtitle: Let's get in touch!
 thumbnail-img: /assets/img/codeaffen_wo_bg.png
 tags: [project, homepage, contact, keybase]
 author: gmzabos
+redirect_from: /2021-01-05-contact-us-at-keybase/
 ---
 
 

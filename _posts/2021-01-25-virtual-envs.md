@@ -4,6 +4,7 @@ title: Using virtual environments for development
 subtitle: Isolate your sandbox
 tags: [development, python, ruby, node.js]
 author: cmeissner
+redirect_from: /2021-01-25-virtual-envs/
 ---
 
 If you develop on different projects in different languages it can happen that different versions of the respective scriptin languges are used.

@@ -6,6 +6,7 @@ tags: [project, release, announcement, phpypam]
 gh-repo: codeaffen/p3exporter
 gh-badge: [star, watch, fork, follow]
 author: cmeissner
+redirect_from: /2021-03-22-p3exporter-announcement-1.0.0/
 ---
 
 We are proud to announce the release of version 1.0.0 of p3exporter. We now on the road to provide real life collectors. Starting with `loadavg`. We plan to provide more and more real life collectors to use this exporter not only for own development.

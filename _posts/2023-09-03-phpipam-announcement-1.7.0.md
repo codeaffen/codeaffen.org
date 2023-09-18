@@ -1,4 +1,5 @@
 ---
+redirect_from: /2023-09-03-phpipam-announcement-1.7.0/
 layout: post
 title: codeaffen.phpipam v1.7.0
 subtitle: phpipam ansible modules 1.7.0 has been released

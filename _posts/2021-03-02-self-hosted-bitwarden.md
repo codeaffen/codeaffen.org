@@ -4,6 +4,7 @@ title: Bitwarden on premise
 subtitle: Operate your own bitwarden infrastructure
 tags: [bitwarden, password managers, docker, container]
 author: cmeissner
+redirect_from: /2021-03-02-self-hosted-bitwarden/
 ---
 
 ## Why bitwarden?
@@ -58,7 +59,7 @@ We try our test installation with the chrome extension. For that we created a fr
 
 You need to open the settings dialog gear symbol on the upper left corner and write the url to your installation in the server field. All other field can be left blank but you can also put your url in there. Finally you need to click the save button in the upper right corner.
 
-![Bitwarden extension settings](../../assets/img/bitwarden_ext_settings.png)
+![Bitwarden extension settings](/assets/img/bitwarden_ext_settings.png)
 
 Now you can create a new account on your server and start to use is like you would use bitwarden cloud.
 

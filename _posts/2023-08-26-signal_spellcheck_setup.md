@@ -4,6 +4,7 @@ title: Signal Spellcheck
 subtitle: Setting up multiple languages for spell checking
 tags: [signal, signal-desktop, desktop, spellcheck, language, locales, configuration]
 author: cmeissner
+redirect_from: /2023-08-26-signal_spellcheck_setup/
 ---
 Using `Signal` as the messenger of your choice is always a good idea. It provides **State-of-the-art end-to-end encryption**, **Text-**, **Voice-** and **Video-Chats**. You can chat 1:1 or in **Groups**. There are no adds in and it is always free for everyone. And finally it provides a desktop client for the main desktop OSes (Windows, OSX and Linux).
 

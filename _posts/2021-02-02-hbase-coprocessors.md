@@ -4,6 +4,7 @@ title: How to remove coprocessor table attributes
 subtitle: Coprocessors in HBase
 tags: [apache, hadoop, hbase, phoenix, coprocessor]
 author: gmzabos
+redirect_from: /2021-02-02-hbase-coprocessors/
 ---
 
 {: .box-warning}

@@ -6,6 +6,7 @@ tags: [github, workflow, container, services, docker, end-to-end tests, ansible,
 gh-repo: codeaffen/phpipam-ansible-modules
 gh-badge: [star, watch, fork, follow]
 author: cmeissner
+redirect_from: /2022-01-01-github-actions-containerized-services/
 ---
 
 For our [phpipam-ansible-modules](https://github.com/codeaffen/phpipam-ansible-modules){:target="_blank"} we started early to test all our modules with end-to-end tests. For that we created for each module a playbook where entities are created, updated and deleted (crud). We ran theses playbooks by hand to check if the modules worked as expected. To automate this a bit we also use loops in our used shell to iterate over all the test playbooks and check the results manually.

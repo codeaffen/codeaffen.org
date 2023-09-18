@@ -115,6 +115,7 @@ class HowtoExampleCollector(CollectorBase):
 
     def __init__(self, config: CollectorConfig):
 
+redirect_from: /2021-06-07-writing-p3exporter-collectors/
         super(HowtoExampleCollector, self).__init__(config)
 
         self.our_opt = self.opts.pop("our_opt", None)

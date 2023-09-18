@@ -6,6 +6,7 @@ tags: [project, release, announcement, phpypam]
 gh-repo: codeaffen/p3exporter
 gh-badge: [star, watch, fork, follow]
 author: cmeissner
+redirect_from: /2021-03-30-p3exporter-announcement-1.1.0/
 ---
 
 We are proud to announce the release of version 1.1.0 of p3exporter.
