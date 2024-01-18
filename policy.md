@@ -41,7 +41,14 @@ In some special cases we also use cookies provided by trusted third parties. The
     For more information on Google Analytics cookies, see the official Google Analytics page.
     
 *   Third party analytics are used to track and measure usage of this site so that we can continue to produce engaging content. These cookies may track things such as how long you spend on the site or pages you visit which helps us to understand how we can improve the site for you.
-    
+
+**Cookie Information**
+
+<div id="cmpcookieinfo"></div><script src="https://delivery.consentmanager.net/delivery/cookieinfo.php?cdid=d590ed76816dd" type="text/javascript" async></script>
+
+**Vendor Information**
+
+<div id="cmpvendorlist"></div><script src="https://delivery.consentmanager.net/delivery/vendorlist.php?cdid=d590ed76816dd" type="text/javascript" async></script>      
 
 **More Information**
 
