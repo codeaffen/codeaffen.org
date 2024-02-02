@@ -144,12 +144,12 @@ cookie_consent:
 # --- Web Analytics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-gtag: "G-CPKTNDYCN2"
+### gtag: "G-CPKTNDYCN2"
 
-gtag_block_3rd_party_code: true
+### gtag_block_3rd_party_code: true
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
-#google_analytics: ""
+### google_analytics: ""
 
 # Google Tag Manager ID
 #gtm: ""
