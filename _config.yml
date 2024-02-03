@@ -186,13 +186,13 @@ cookie_consent:
 # If you want to use reCaptcha for staticman (optional for spam protection), then fill
 # in the "siteKey" and "secret" parameters below and also in `staticman.yml`.
 # See more details at https://staticman.net/
-staticman:
-  repository : "codeaffen/codeaffen.org" # GitHub username/repository eg. "daattali/beautiful-jekyll"
-  branch     : "develop" # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
-  endpoint   : "https://codeaffen-staticman.herokuapp.com/v3/entry/github/" # (optional) URL of your own deployment, with a trailing slash eg. https://<your-api>/v3/entry/github/ (will fallback to a public GitLab instance)
-  # reCaptcha:
-  #   siteKey  : "codeaffen" # Use your own site key, you need to apply for one on Google
-  #   secret   : "QPbzwg62UUgBS+AtxEqEjr72mrooOAbGHBDlQQ8OdvJbhodp9rb1VTHsDxOjw6cOp5CAbeJwNIrbvIXplzMvoDEyufloA/d6LZfx3Tnlu/+1cpCNa/jFGAb+qJWDFjZpS9dLJI0/lA9SwsgLWhR5jZ3zcmuyHOfNtIPJuI0vcYzrTwNpsLH88QK2iGh1vISZLZSK7GpPY5g9xwMAcEhxHr7cGPIXzmqwyor2pdOYmnIcpDYHBCcEPgjDMMD1aU3A4SyJ/KyxN7HcAhklcGVqMaHvE29Rj4VZfrg2slDL/M4g0aHfl/gPPqNbSWsXY61nmKFoT5b6YoO9KJOpLngzVw==" # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
+#staticman:
+#  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#  branch     : # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+#  endpoint   : # (optional) URL of your own deployment, with a trailing slash eg. https://<your-api>/v3/entry/github/ (will fallback to a public GitLab instance)
+#  # reCaptcha:
+#  #   siteKey  : # Use your own site key, you need to apply for one on Google
+#  #   secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
 
 # --- Misc --- #
 
