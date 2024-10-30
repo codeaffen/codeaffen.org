@@ -4,6 +4,7 @@ title: Discord as OpenShift alert receiver
 subtitle: How to configure discord as a receiver for alertmanager
 tags: [openshift, prometheus, alertmanager, discord, receiver, shorts, k8s]
 author: cmeissner
+last-updated: 2024-10-15
 ---
 
 Having alerts sent to a channel like Slack, E-Mail or Pagerduty is easy configured in OpenShift.
@@ -50,6 +51,40 @@ As it is not possible yet to configure discord as a receiver type, you need to c
   ```
 
   Replace `<Webhook URL>` with the one you copied in while creating the webhook in the step before.
+
+- Add message template
+
+  We define a message template for `discord_configs`.
+
+  {% raw %}
+
+  ```yaml
+  receivers:
+  - name: default
+    discord_configs:
+      - webhook_url: >-
+            <Webhook URL>
+        message: |-
+            {{ range .Alerts.Firing }}
+                Alert: **{{ printf "%.150s" .Annotations.summary }}** ({{ .Labels.severity }})
+                Description: {{ printf "%.150s" .Annotations.description }}
+                Alertname: {{ .Labels.alertname }}
+                Namespace: {{ .Labels.namespace }}
+                Service: {{ .Labels.service }}
+            {{ end }}
+
+            {{ range .Alerts.Resolved }}
+                Alert: **{{ printf "%.150s" .Annotations.summary }}** ({{ .Labels.severity }})
+                Description: {{ printf "%.150s" .Annotations.description }}
+                Alertname: {{ .Labels.alertname }}
+                Namespace: {{ .Labels.namespace }}
+                Service: {{ .Labels.service }}
+            {{ end }}
+  ```
+
+  {% endraw %}
+
+  This template is needed as the Discord API has a message size limit which will return an error 400 if the message send is to long. Reaching this limit is not that difficult for Prometheus alerts, so we reduced the message size to the bare minimum.
 
 - Update your alertmanager configuration
 
