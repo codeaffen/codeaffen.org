@@ -8,7 +8,7 @@ gh-badge: [star, watch, fork, follow]
 last-updated: 2022-01-29
 ---
 
-![Version on Galaxy](https://img.shields.io/badge/dynamic/json?style=flat&label=galaxy&prefix=v&url=https://galaxy.ansible.com/api/v2/collections/codeaffen/phpipam/&query=latest_version.version){:target="_blank"}
+[![Version on Galaxy](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv3%2Fplugin%2Fansible%2Fcontent%2Fpublished%2Fcollections%2Findex%2Fcodeaffen%2Fphpipam%2F&query=%24.highest_version.version&label=galaxy)](https://galaxy.ansible.com/ui/repo/published/codeaffen/phpipam/){:target="_blank"}
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/0372c2bb95e845ce96fa5d4cf13ca1ca)](https://www.codacy.com/gh/codeaffen/phpipam-ansible-modules/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=codeaffen/phpipam-ansible-modules&amp;utm_campaign=Badge_Grade){:target="_blank"}
 [![Documentation Status](https://readthedocs.org/projects/phpipam-ansible-modules/badge/?version=develop)](https://phpipam-ansible-modules.readthedocs.io/en/develop/?badge=develop){:target="_blank"}
 
