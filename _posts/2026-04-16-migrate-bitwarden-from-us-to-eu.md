@@ -4,6 +4,7 @@ title: Migrating Bitwarden Account
 subtitle: from US to EU with Premium Subscription!
 tags: [bitwarden, bitwarden.com, bitwarden.eu, migration, howto, subscription]
 author: cmeissner
+last-updated: 2026-04-17
 ---
 
 I recently took the plunge and migrated my Bitwarden account from the United States (bitwarden.com) to the European Union (bitwarden.eu). As a privacy-conscious user, I wanted to take advantage of the data residency benefits and ensure my passwords were being stored and managed in accordance with EU regulations.
@@ -89,6 +90,9 @@ Once you've confirmed your EU account is working perfectly, that you have all yo
 Go to Settings > Deauthorize Sessions and then Settings > Delete Account.
 
 The Result: Privacy, Security, and Peace of Mind!
+
+{: .box-warning}
+**Info:** However, the US CLOUD Act may still technically apply because Bitwarden is a US company, though the zero-knowledge architecture ensures that even if data is accessed, the encrypted vault contents remain unreadable without the user's master password.
 
 The entire process was smoother than I anticipated. The key is to be organized, follow the steps carefully, and remember to transfer those attachments manually! Now I have the peace of mind knowing my data is residing in the EU, and I still have all the Premium features that make Bitwarden such a fantastic password manager.
 
